@@ -127,3 +127,77 @@ nav ul li a:hover {
   margin-top: 75px;
 }
 
+.synchrovae-phone {
+  margin-left: 190px;
+  margin-top: 200px;
+}
+
+.synchrovae {
+  display: flex;
+}
+
+.synchrovae-text {
+  text-align: right;
+  margin-left: 450px;
+  margin-top: 145px;
+}
+
+.synchrovae-h1 {
+  display: flex;
+  font-family: 'Allison', cursive;
+  font-size: 78px;
+  transform: translateX(40px);
+}
+
+.synchrovae-icon {
+  transform: translateY(-225px);
+  height: 173px;
+  width: 149px;
+}
+
+.synchrovae-h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -20px;
+  transform: translateY(-170px);
+}
+
+.synchrovae-p1 {
+  font-size: 18px;
+  font-weight: medium;
+  width: 463px;
+  line-height: 1.5;
+  transform: translateY(-170px);
+}
+
+.synchrovae-button {
+  transform: translateY(-150px);
+  height: 81px;
+  width: 162px;
+  margin-right: 100px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.synchrovae-button-text {
+  position: absolute;
+  width: 113px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blue-box {
+  position: absolute;
+  height: 65px;
+  width: 150px;
+  z-index: -1;
+  transform: translateY(-1px);
+}
+
+.synchrovae-button:hover {
+  .blue-box {
+    background-color: #72B0FF
+  }
+}
