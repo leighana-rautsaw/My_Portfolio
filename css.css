@@ -1,11 +1,103 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('Portfolio_Images/home-background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    overflow-y: auto;
-  }
+html {
+  background: url('Portfolio_Images/home-background.png');
+  background-size: cover;
+  height: 369.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 
-  
+body {
+  font-family: 'Allison', cursive;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #faf1df 75%, transparent);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  height: 186px;
+  width: 100%
+}
+
+.logo {
+  width: 228px;
+  height: 78px;
+  padding: 17px 50px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 47px 50px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 70px;
+  color: #000000
+}
+
+nav ul li a:hover {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.first-line {
+  padding-top: 217px;
+  padding-left: 100px;
+  font-size: 22px;
+  font-weight: regular;
+}
+
+.second-line {
+  font-family: 'Allison', cursive;
+  padding-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 128px;
+}
+
+.paragraph-one {
+  padding-left: 100px;
+  margin-top: 20px;
+  width: 662px;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.paragraph-two {
+  padding-left: 100px;
+  width: 662px;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.paragraph-three {
+  padding-left: 100px;
+  width: 662px;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.content {
+  display: flex
+}
+
+.building-image {
+  margin-top: 158px;
+}
+
