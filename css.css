@@ -101,3 +101,29 @@ nav ul li a:hover {
   margin-top: 158px;
 }
 
+.main-title {
+  font-family: 'Allison', cursive;
+  font-size: 96px;
+}
+
+.feather-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 155px;
+  width: 252px;
+}
+
+.custom-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
