@@ -1,0 +1,142 @@
+html {
+    background: url('Portfolio_Images/about-me-page-background.png');
+    background-size: cover;
+    height: 617.18vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  
+  body {
+    font-family: 'Allison', cursive;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom, #faf1df 75%, transparent);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    top: 0;
+    height: 175px;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 228px;
+    height: 78px;
+    padding: 17px 50px;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 47px 50px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: #000000;
+    transition: all .5s ease;
+  }
+  
+  nav ul li a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+
+.main {
+    display: flex;
+    margin-top: 195px;
+}
+
+.opening-portrait {
+    margin-left: 70px;
+}
+
+.opening-text {
+    text-align: right;
+    padding-right: 100px;
+    margin-top: -100px;
+}
+
+.first-line {
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+    transform: translateX(60px);
+}
+
+.second-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(150px);
+    margin-top: -150px;
+}
+
+.first-half {
+    font-size: 22px;
+}
+
+.second-half {
+    font-family: 'Allison', cursive;
+    font-size: 72px;
+    padding-left: 30px;
+    transform: translateY(-10px);
+}
+
+.paragraphs {
+    font-size: 18px;
+    font-weight: regular;
+    width: 503px;
+    line-height: 1.5;
+    margin-top: -85px;
+    transform: translateX(250px);
+}
+
+.skill-set-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.skill-set-text {
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+}
+
+.skills-subheadings {
+    display: flex;
+    gap: 200px;
+    font-family: 'Allison', cursive;
+    font-size: 72px;
+    margin-left: 192px;
+    margin-top: -30px;
+}
+
+.skills-list-section {
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.skill-set-outlines {
+    margin-left: 100px;
+    max-width: 100%;
+    width: 1240px;
+    height: auto;
+}
