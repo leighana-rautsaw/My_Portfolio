@@ -21,7 +21,7 @@ header {
   z-index: 9999;
   top: 0;
   height: 186px;
-  width: 100%
+  width: 100%;
 }
 
 .logo {
@@ -49,7 +49,8 @@ nav ul li a {
   font-size: 14px;
   font-weight: bold;
   margin-left: 70px;
-  color: #000000
+  color: #000000;
+  transition: all .5s ease;
 }
 
 nav ul li a:hover {
@@ -95,7 +96,7 @@ nav ul li a:hover {
 }
 
 .content {
-  display: flex
+  display: flex;
 }
 
 .building-image {
@@ -199,7 +200,7 @@ nav ul li a:hover {
 
 .synchrovae-button:hover {
   .blue-box {
-    background-color: #72B0FF
+    background-color: #72B0FF;
   }
 }
 
@@ -283,3 +284,86 @@ nav ul li a:hover {
     background-color: #BDC98D;
   }
 }
+
+.pharmacy {
+  display: flex;
+}
+
+.pharmacy-laptop {
+  margin-top: 400px;
+  transform: translateX(-180px);
+  height: 460px;
+  width: 644px;
+}
+
+.pharmacy-text {
+  text-align: right;
+  margin-top: 285px;
+  transform: translateX(-100px);
+}
+
+.pharmacy-h1 {
+  display: flex;
+  font-family: 'Allison', cursive;
+  font-size: 78px;
+  width: 555px;
+  transform: translateX(-225px);
+  position: absolute;
+}
+
+.pharmacy-icon {
+  height: 158px;
+  width: 158px;
+  transform: translateX(50px);
+  transform: translateY(50px);
+}
+
+.pharmacy-h2 {
+  font-size: 22px;
+  font-weight: bold;
+  transform: translateX(-35px);
+  transform: translateY(50px);
+}
+
+.pharmacy-p1 {
+  font-size: 18px;
+  font-weight: medium;
+  width: 519px;
+  line-height: 1.5;
+  transform: translateY(50px);
+}
+
+.pharmacy-button {
+  transform: translateY(-150px);
+  height: 81px;
+  width: 163px;
+  margin-right: 100px;
+  margin-top: 15px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pharmacy-button-text {
+  position: absolute;
+  width: 113px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.orange-box {
+  position: absolute;
+  height: 65px;
+  width: 150px;
+  z-index: -1;
+  transform: translateY(-1px);
+}
+
+.pharmacy-button:hover {
+  .orange-box {
+    background-color: #49BDA7;
+  }
+}
+
+
