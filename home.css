@@ -512,3 +512,8 @@ li {
   font-weight: bold;
 }
 
+.column li:hover {
+  font-size: 17px;
+  font-weight: bold;
+  transition: all .5s ease;
+}
