@@ -173,7 +173,7 @@ nav ul li a:hover {
 }
 
 .synchrovae-button {
-  transform: translateY(-175px);
+  transform: translateY(-165px);
   height: 81px;
   width: 162px;
   margin-right: 100px;
@@ -449,6 +449,11 @@ nav ul li a:hover {
   }
 }
 
-
-
+footer {
+  background-image: linear-gradient(to top, #FAF1DF 75%, transparent);
+  bottom: 0;
+  height: 500px;
+  width: 100%;
+  transform: translateY(265px);
+}
 
