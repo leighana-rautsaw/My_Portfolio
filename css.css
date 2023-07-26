@@ -18,6 +18,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  z-index: 9999;
   top: 0;
   height: 186px;
   width: 100%
@@ -171,7 +172,7 @@ nav ul li a:hover {
 }
 
 .synchrovae-button {
-  transform: translateY(-150px);
+  transform: translateY(-175px);
   height: 81px;
   width: 162px;
   margin-right: 100px;
@@ -199,5 +200,86 @@ nav ul li a:hover {
 .synchrovae-button:hover {
   .blue-box {
     background-color: #72B0FF
+  }
+}
+
+.bsa {
+  display: flex;
+}
+
+.bsa-title {
+  display: flex;
+}
+
+.bsa-text {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 225px;
+}
+
+.bsa-h1 {
+  display: flex;
+  font-family: 'Allison', cursive;
+  font-size: 78px;
+  margin-top: 80px;
+  margin-left: -25px;
+  width: 573px;
+}
+
+.bsa-icon {
+  display: flex;
+  height: 218.69px;
+  width: 162.22px;
+}
+
+.bsa-h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.bsa-p1 {
+  font-size: 18px;
+  font-weight: medium;
+  width: 521px;
+  line-height: 1.5;
+}
+
+.bsa-laptop {
+  height: 544px;
+  width: 550px;
+  margin-left: 5px;
+  margin-top: 300px;
+}
+
+.bsa-button {
+  transform: translateY(-175px);
+  height: 81px;
+  width: 163px;
+  margin-left: 100px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bsa-button-text {
+  position: absolute;
+  width: 113px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.green-box {
+  position: absolute;
+  height: 65px;
+  width: 150px;
+  z-index: -1;
+}
+
+.bsa-button:hover {
+  .green-box {
+    background-color: #BDC98D;
   }
 }
