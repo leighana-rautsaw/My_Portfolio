@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   z-index: 9999;
   top: 0;
-  height: 186px;
+  height: 175px;
   width: 100%;
 }
 
@@ -362,8 +362,93 @@ nav ul li a:hover {
 
 .pharmacy-button:hover {
   .orange-box {
+    background-color: #FEC086;
+  }
+}
+
+.student-counsel {
+  display: flex;
+  margin-top: 310px;
+}
+
+.student-title {
+  display: flex;
+}
+
+.student-text {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.student-h1 {
+  display: flex;
+  font-family: 'Allison', cursive;
+  font-size: 78px;
+  width: 320px;
+  transform: translateX(60px);
+}
+
+.student-icon {
+  display: flex;
+  height: 148px;
+  width: 171px;
+  transform: translateY(60px);
+}
+
+.student-h2 {
+  font-size: 22px;
+  font-weight: bold;
+  transform: translateY(-30px);
+}
+
+.student-p1 {
+  font-size: 18px;
+  font-weight: medium;
+  width: 554px;
+  line-height: 1.5;
+  transform: translateY(-30px);
+}
+
+.student-phone {
+  height: 554.09px;
+  width: 290px;
+  margin-top: 10px;
+  transform: translateX(300px);
+}
+
+.student-button {
+  height: 81px;
+  width: 163px;
+  margin-left: 100px;
+  transform: translateY(-110px);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-button-text {
+  position: absolute;
+  width: 113px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.teal-box {
+  position: absolute;
+  transform: translateY(-1px);
+  height: 65px;
+  width: 150px;
+  z-index: -1;
+}
+
+.student-button:hover {
+  .teal-box {
     background-color: #49BDA7;
   }
 }
+
+
 
 
