@@ -1,0 +1,194 @@
+html {
+    background: url('Portfolio_Images/contact-page-background.png');
+    background-size: cover;
+    height: 104.3vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Allison', cursive;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #faf1df 75%, transparent);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    top: 0;
+    height: 175px;
+    width: 100%;
+}
+
+.logo {
+    width: 228px;
+    height: 78px;
+    padding: 17px 50px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 47px 50px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: #000000;
+    transition: all .5s ease;
+}
+
+nav ul li a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 150px;
+}
+
+.top-half {
+    display: flex;
+    margin-top: -30px;
+}
+
+.opening-text {
+    margin-left: 120px;
+}
+
+.heading {
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 668px;
+    margin-top: -80px;
+}
+
+.hand-png {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.bottom-half {
+    display: flex;
+    margin-left: 90px;
+    margin-top: -220px;
+}
+
+.message-box {
+    max-width: 100%;
+    width: 560px;
+    height: auto;
+    transform: translateX(-10px);
+    margin-top: -30px;
+}
+
+.box-title {
+    font-size: 18px;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+.rectangle {
+    width: 392px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+
+#rectangle1, #rectangle2, #rectangle3 {
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+#rectangle4 {
+    height: 123px;
+}
+
+.rectangle-labels {
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.submit-button-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button-text {
+    font-size: 16px;
+    position: absolute;
+}
+
+.submit-button-text p {
+    text-align: center;
+    margin: 0;
+    transform: translateX(25px);
+    margin-top: -42px;
+}
+
+.tan-box {
+    height: 45px;
+    width: 105px;
+    z-index: -1;
+    background-color: #FF0000;
+    transform: translateY(50px);
+}
+
+.contact-list-section {
+    display: flex;
+}
+
+.contact-title {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-icon, .email-icon {
+    margin-bottom: 20px;
+}
+
+.number, .email, .address {
+    font-size: 18px;
+}
+
+.see-my-work {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
