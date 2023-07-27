@@ -111,8 +111,13 @@ nav ul li a:hover {
     margin-left: 50px;
 }
 
+.rectangles {
+    margin-left: 62px;
+    transform: translateY(-330px);
+}
+
 .rectangle {
-    width: 392px;
+    width: 420px;
     border-radius: 5px;
     border: 1.5px solid black;
 }
@@ -129,37 +134,41 @@ nav ul li a:hover {
 .rectangle-labels {
     font-size: 12px;
     color: #7C7C7C;
+    margin-top: -595px;
+    margin-left: 75px;
 }
 
-.submit-button-container {
-    position: relative;
-    justify-content: center;
-    align-items: center;
+.rectangle-labels p {
+    padding-bottom: 21px;
 }
 
 .submit-button {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 115px;
+    margin-top: 135px;
+    margin-left: 25px;
 }
 
 .submit-button-text {
-    font-size: 16px;
     position: absolute;
-}
-
-.submit-button-text p {
-    text-align: center;
-    margin: 0;
-    transform: translateX(25px);
-    margin-top: -42px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .tan-box {
+    position: absolute;
     height: 45px;
-    width: 105px;
+    width: 110px;
     z-index: -1;
-    background-color: #FF0000;
-    transform: translateY(50px);
+    transform: translateY(-3px);
+}
+
+.submit-button:hover {
+    .tan-box {
+        background-color: #FAF1DF;
+    }
 }
 
 .contact-list-section {
@@ -177,7 +186,7 @@ nav ul li a:hover {
 }
 
 .phone-icon, .email-icon {
-    margin-bottom: 20px;
+    margin-bottom: 33px;
 }
 
 .number, .email, .address {
@@ -190,5 +199,116 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.right-half {
+    margin-left: 60px;
+}
+
+.contact-text {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.number, .email, .address {
+    padding-bottom: 85px
+}
+
+.see-my-work {
+    margin-top: -35px;
+    transform: translateX(230px);
+}
+
+.see-my-work:hover {
+    font-size: 22px;
+    transition: all .5s ease;
+}
+
+.number:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+.email:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+.address:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+footer {
+    background-image: linear-gradient(to top, #FAF1DF 75%, transparent);
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+    transform: translateY(70px);
+}
+
+.footer-top {
+    display: flex;
+    transform: translateY(200px);
+    justify-content: center;
+    margin-left: 108px;
+}
+
+.footer-logo {
+    display: flex;
+    height: 132px;
+    width: 409px;
+    transform: translateX(-90px);
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    transform: translateX(-40px);
+    li {
+        margin-bottom: 15px;
+    }
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bullet-list-section {
+    margin-top: 40px;
+    transform: translateX(25px);
+}
+
+.footer-contact {
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 880px;
+    transform: translateX(300px);
+    padding-bottom: 50px;
+    bottom: 0
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: regular;
+    text-decoration: underline;
+}
+
+.in-touch {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.column li:hover {
+    font-size: 17px;
+    font-weight: bold;
+    transition: all .5s ease;
+}
 
 
