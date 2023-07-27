@@ -53,7 +53,7 @@ html {
     transition: all .5s ease;
   }
   
-  nav ul li a:hover {
+nav ul li a:hover {
     font-size: 16px;
     text-decoration: underline;
   }
@@ -171,6 +171,7 @@ html {
     transform: translateX(-25px);
     margin-top: -20px;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .soft-skills {
@@ -192,6 +193,7 @@ html {
     transform: translateX(-25px);
     margin-top: -20px;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .ux-hard-skills {
@@ -480,7 +482,7 @@ footer {
     bottom: 0
 }
 
-li {
+footer li {
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: regular;
