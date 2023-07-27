@@ -111,7 +111,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: -20px;
+}
+
+.skill-icon {
+    transform: translateX(-40px);
+    margin-top: -25px;
+    max-width: 100%;
+    width: 150px;
 }
 
 .skill-set-text {
@@ -139,4 +146,355 @@ html {
     max-width: 100%;
     width: 1240px;
     height: auto;
+}
+
+.skill-set-lists {
+    margin-top: -530px;
+}
+
+.hard-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    gap: 300px;
+    transform: translateX(-80px);
+}
+
+.hard-skills-lists {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 16px;
+    gap: 190px;
+    transform: translateX(-25px);
+    margin-top: -20px;
+    line-height: 1.5;
+}
+
+.soft-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    gap: 310px;
+    transform: translateX(-80px);
+}
+
+.soft-skills-lists {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 16px;
+    gap: 190px;
+    transform: translateX(-25px);
+    margin-top: -20px;
+    line-height: 1.5;
+}
+
+.ux-hard-skills {
+    width: 250px;
+}
+
+.ux-hard-skills li {
+    margin-bottom: 5px;
+}
+
+.crossover-hard-skills {
+    width: 250px;
+}
+
+.crossover-hard-skills li {
+    margin-bottom: 5px;
+}
+
+.ui-hard-skills {
+    width: 250px;
+}
+
+.ui-hard-skills li {
+    margin-bottom: 5px;
+}
+
+.ux-soft-skills {
+    width: 250px;
+}
+
+.ux-soft-skills li {
+    margin-bottom: 5px;
+}
+
+.crossover-soft-skills {
+    width: 250px;
+}
+
+.crossover-soft-skills li {
+    margin-bottom: 5px;
+}
+
+.ui-soft-skills {
+    width: 250px;
+}
+
+.ui-soft-skills li {
+    margin-bottom: 5px;
+}
+
+.specialties-assets-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    transform: translateX(-60px);
+}
+
+.specialties-assets-title-text {
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+    transform: translateX(-100px);
+}
+
+.feather2 {
+    max-width: 100%;
+    width: 280px;
+    transform: translateY(-15px);
+}
+
+.specialties-assets-images-section {
+    display: flex;
+}
+
+.chart-png {
+    margin-left: 110px;
+    max-width: 100%;
+    width: 780px;
+    margin-top: 50px;
+}
+
+.standing-portrait {
+    transform: translateX(100px);
+    margin-top: -270px;
+}
+
+.me-standing {
+    max-width: 100%;
+    width: 380px;
+}
+
+.top-labels {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    gap: 550px;
+    transform: translateY(-800px);
+    align-items: center;
+}
+
+.top-lists {
+    display: flex;
+    transform: translateY(-780px);
+    align-items: flex-end;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 355px;
+    gap: 50px;
+}
+
+.focus-list {
+    text-align: right;
+}
+
+.bottom-lists {
+    display: flex;
+    transform: translateY(-770px);
+    align-items: flex-start;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 260px;
+    gap: 50px;
+}
+
+.proficient-list {
+    text-align: right;
+}
+
+.bottom-labels {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    gap: 550px;
+    transform: translateY(-800px);
+    align-items: center;
+}
+
+.design-process {
+    margin-top: -680px;
+    text-align: center;
+}
+
+.design-process-title {
+    align-content: center;
+    justify-content: center;
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+}
+
+.double-diamond {
+    max-width: 100%;
+    width: 1100px;
+    padding-top: 20px;
+}
+
+.design-process-text {
+    font-size: 16px;
+    width: 1080px;
+    text-align: left;
+    margin: auto;
+    line-height: 1.5;
+    padding-top: 60px;
+}
+
+.p1 {
+    padding-bottom: 10px;
+}
+
+.my-goal-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    transform: translateX(160px);
+}
+
+.my-goal-text {
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+    padding-right: 10px;
+}
+
+.my-goal-icon {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    transform: translateX(-80px);
+    margin-top: -30px;
+}
+
+.my-goal-images {
+    display: flex;
+}
+
+.sitting-portrait {
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+    margin-top: -280px;
+}
+
+.goal-note {
+    height: 593.76px;
+    width: 680px;
+    margin-top: -70px;
+    transform: translateX(-20px);
+}
+
+.my-journey {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.my-journey-title {
+    display: flex;
+    font-family: 'Allison', cursive;
+    font-size: 96px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slash2 {
+    transform: translateX(-30px);
+}
+
+.timeline {
+    max-width: 100%;
+    width: 1265px;
+    height: auto;
+}
+
+footer {
+    background-image: linear-gradient(to top, #FAF1DF 75%, transparent);
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+    transform: translateY(10px);
+}
+
+.footer-top {
+    display: flex;
+    transform: translateY(200px);
+    justify-content: center;
+    margin-left: 108px;
+}
+
+.footer-logo {
+    display: flex;
+    height: 132px;
+    width: 409px;
+    transform: translateX(-90px);
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    transform: translateX(-40px);
+    li {
+        margin-bottom: 15px;
+    }
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bullet-list-section {
+    margin-top: 40px;
+    transform: translateX(25px);
+}
+
+.footer-contact {
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 880px;
+    transform: translateX(300px);
+    padding-bottom: 50px;
+    bottom: 0
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: regular;
+    text-decoration: underline;
+}
+
+.in-touch {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.column li:hover {
+    font-size: 17px;
+    font-weight: bold;
+    transition: all .5s ease;
 }
