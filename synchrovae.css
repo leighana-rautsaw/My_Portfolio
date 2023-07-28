@@ -1,0 +1,129 @@
+html {
+    background-color: #FFFFFF;
+    background-size: cover;
+    height: 1348vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Allison', cursive;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #72B0FF 75%, transparent);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    top: 0;
+    height: 175px;
+    width: 100%;
+}
+
+.logo {
+    width: 228px;
+    height: 78px;
+    padding: 17px 50px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 47px 50px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: #000000;
+    transition: all .5s ease;
+}
+
+nav ul li a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.opening-text {
+    margin-top: -100px;
+}
+
+.opening-h1 {
+    font-family: 'Allison', cursive;
+    font-size: 128px;
+    margin-bottom: 0px;
+}
+
+.opening-h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.opening-collage {
+    max-width: 100%;
+    width: 1200px;
+    height: auto;
+}
+
+.project-information-section {
+    transform: translateY(-5px);
+}
+
+.project-information-title {
+    font-family: 'Allison', cursive;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-title-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-250px);
+}
+
+.project-title-bottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+.project-title-bottom-left {
+    transform: translateX(12px);
+}
+
+.project-title-bottom-right {
+    transform: translateX(-12px);
+}
+
+.project-title-box {
+    height: 200px;
+    width: 100%;
+    background-color: #72B0FF;
+}
+
