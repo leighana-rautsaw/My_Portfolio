@@ -7,11 +7,13 @@ html {
 }
 
 body {
-    font-family: 'Allison', cursive;
     font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -23,6 +25,7 @@ header {
     top: 0;
     height: 175px;
     width: 100%;
+    font-family: 'Comfortaa', cursive;
 }
 
 .logo {
@@ -125,5 +128,407 @@ nav ul li a:hover {
     height: 200px;
     width: 100%;
     background-color: #72B0FF;
+}
+
+.project-overview {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    margin: 200px;
+    width: 1038px;
+    margin-top: -260px;
+}
+
+.overview-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.overview-paragraph {
+    font-size: 16px
+}
+
+.problem-solution {
+    display: flex;
+    text-align: left;
+    margin: 200px;
+    gap: 40px;
+    margin-top: -180px;
+}
+
+.problem-title, .solution-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.problem-paragraph, .solution-paragraph {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    width: 500px;
+}
+
+.overview-details {
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    gap: 90px;
+    margin: 200px;
+    margin-top: -170px;
+}
+
+.overview-details li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: -20px;
+}
+
+.overview-details ul {
+    margin-top: -10px;
+}
+
+.project-type-title, .timeline-title, .my-roles-title, .platform-title, .tools-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.design-process-title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 200px;
+    margin-top: -210px;
+}
+
+.design-process-main {
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    margin: 200px;
+    margin-top: -190px;
+}
+
+.line-big {
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    margin-top: 38px;
+}
+
+.research-1, .empathize-2, .define-3, .ideate-4, .prototype-5, .test-6, .conclusion-7 {
+    font-size: 32px;
+    font-weight: light;
+    margin-top: -68px;
+}
+
+.research-label, .empathize-label, .define-label, .ideate-label, .prototype-label, .test-label, .conclusion-label {
+    font-size: 16px;
+}
+
+.research-section {
+    margin-top: -150px;
+    font-family: 'Comfortaa', cursive;
+    align-items: center;
+    justify-content: center;
+}
+
+.research-title-box {
+    height: 100px;
+    width: 100%;
+    background-color: #72B0FF;
+}
+
+.research-title-text {
+    font-family: 'Allison', cursive;
+    font-size: 64px;
+    text-align: center;
+    margin-top: -95px;
+}
+
+
+
+
+
+
+
+
+
+
+.design-process-research {
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 5px;
+    transform: translateY(-50px);
+}
+
+.blue-circle-1 {
+    width: 30px;
+    height: 30px;
+    background-color: #72B0FF;
+    border-radius: 50%;
+    margin-top: -25px;
+    transform: translateX(49px);
+    z-index: -1;
+}
+
+.research-small-circle-div, .empathize-small-circle-div, .define-small-circle-div, .ideate-small-circle-div, .prototype-small-circle-div, .test-small-circle-div, .conclusion-small-circle-div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line-small-1, .line-small-2, .line-small-3, .line-small-4, .line-small-5, .line-small-6 {
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    margin-top: -25px;
+}
+
+.line-small-2 {
+    transform: translateX(-5px);
+}
+
+.line-small-4 {
+    transform: translateX(5px);
+}
+
+.line-small-5 {
+    transform: translateX(-8px);
+}
+
+.line-small-6 {
+    transform: translateX(10px);
+}
+
+.research-1-small, .empathize-2-small, .define-3-small, .ideate-4-small, .prototype-5-small, .test-6-small, .conclusion-7-small {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -26px;
+}
+
+.research-label-small, .empathize-label-small, .define-label-small, .ideate-label-small, .prototype-label-small, .test-label-small, .conclusion-label-small {
+    font-size: 12px;
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+.user-interviews-text {
+    text-align: left;
+    margin: 200px;
+    width: 1027px;
+    margin-top: -100px;
+}
+
+.user-interviews-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-interviews-p1, .user-interviews-p2, .user-interviews-p3 {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.speech-bubbles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.speech-bubble-text {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    margin-top: -300px;
+    transform: translateX(-15px);
+    gap: 160px;
+}
+
+.bubble-1-text {
+    width: 223px;
+    transform: rotate(-13.25deg);
+    margin-top: 15px;
+}
+
+.bubble-2-text {
+    width: 240px;
+}
+
+.bubble-3-text {
+    width: 226px;
+    transform: rotate(13.25deg);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.affinity-diagram-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.affinity-diagram-paragraph {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 200px;
+    width: 1080px;
+}
+
+.affinity-diagram-png {
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.further-analysis-gray-box {
+    height: 200px;
+    width: 100%;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.further-analysis-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    transform: translateX(-453px);
+}
+
+.further-analysis-paragraph {
+    font-size: 16px;
+    text-align: left;
+    width: 1080px;
+    margin-top: -5px;
+}
+
+.chart-section-1 {
+    display: flex;
+    margin: 200px;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-120px);
+}
+
+.chart-section-1-question {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 436px;
+}
+
+.chart-section-1-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 452px;
+}
+
+.chart-2-gray-box {
+    height: 500px;
+    width: 100%;
+    background-color: #F8F8F8;
+    margin-top: -240px;
+}
+
+.chart-section-2 {
+    display: flex;
+    margin: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -425px;
+}
+
+.chart-section-2-question {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 452px;
+    text-align: right;
+}
+
+.chart-section-2-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 452px;
+    text-align: right;
+}
+
+.chart-section-3 {
+    display: flex;
+    margin: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.chart-section-3-question {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 416px;
+}
+
+.chart-section-3-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 416px;
+}
+
+.competitor-analysis {
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+.competitor-analysis-gray-box {
+    height: 1000px;
+    width: 100%;
+    background-color: #F8F8F8;
+    align-items: center;
+    justify-content: center;
+}
+
+.competitor-analysis-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 200px;
+    transform: translateY(55px);
+}
+
+.competitor-analysis-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 200px;
+    width: 1080px;
+    margin-top: -130px;
+}
+
+.competitor-analysis-png {
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: -150px;
 }
 
