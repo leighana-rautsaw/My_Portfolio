@@ -1299,13 +1299,13 @@ footer {
 }
 
 .footer-contact {
-    position: absolute;
     align-items: center;
     justify-content: space-between;
     display: flex;
     width: 880px;
     transform: translateX(300px);
     padding-bottom: 50px;
+    margin-top: 241px;
     bottom: 0
 }
 
