@@ -17,7 +17,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #72B0FF 75%, transparent);
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     z-index: 9999;
@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .project-information-section {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
 }
 
 .project-information-title {

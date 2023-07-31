@@ -15,7 +15,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #faf1df 75%, transparent);
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     z-index: 9999;
