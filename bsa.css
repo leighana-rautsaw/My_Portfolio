@@ -205,6 +205,59 @@ nav ul li a:hover {
     margin-top: -210px;
 }
 
+
+
+
+
+.design-process-main-circles {
+    display: flex;
+    position: relative;
+    margin-left: 210px;
+    margin-right: 220px;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-125px);
+    z-index: -1;
+}
+
+
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #BDC98D;
+}
+
+.circle2 {
+    transform: translateX(4px);
+}
+
+.circle3 {
+    transform: translateX(4px);
+}
+
+.circle5 {
+    transform: translateX(-3px);
+}
+
+.circle6 {
+    transform: translateX(-4px);
+}
+
+.circle-1-main, .circle-2-main, .circle-3-main, .circle-4-main, .circle-5-main, .circle-6-main, .circle-7-main {
+    background-color: white;
+}
+
+.circle-1-main:hover, .circle-2-main:hover, .circle-3-main:hover, .circle-4-main:hover, .circle-5-main:hover, .circle-6-main:hover, .circle-7-main:hover {
+    background-color: transparent;
+}
+
+
+
+
+
+
 .design-process-main {
     font-family: 'Comfortaa', cursive;
     display: flex;
@@ -223,6 +276,7 @@ nav ul li a:hover {
     font-size: 32px;
     font-weight: light;
     margin-top: -68px;
+    pointer-events: none;
 }
 
 .research-label, .empathize-label, .define-label, .ideate-label, .prototype-label, .test-label, .conclusion-label {
@@ -258,6 +312,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-1 {
@@ -559,6 +614,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-2 {
@@ -704,6 +760,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-3 {
@@ -807,6 +864,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-4 {
@@ -992,6 +1050,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-5 {
@@ -1206,6 +1265,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-6 {
@@ -1295,6 +1355,7 @@ nav ul li a:hover {
     margin: 100px;
     gap: 5px;
     transform: translateY(-50px);
+    margin-right: 150px;
 }
 
 .green-circle-7 {
