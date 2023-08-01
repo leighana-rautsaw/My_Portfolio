@@ -325,11 +325,79 @@ nav ul li a:hover {
     z-index: -1;
 }
 
-.research-small-circle-div, .empathize-small-circle-div, .define-small-circle-div, .ideate-small-circle-div, .prototype-small-circle-div, .test-small-circle-div, .conclusion-small-circle-div {
+.research-small-circle-div1, .empathize-small-circle-div1, .define-small-circle-div1, .ideate-small-circle-div1, .prototype-small-circle-div1, .test-small-circle-div1, .conclusion-small-circle-div1 {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.empathize-small-circle-div1:hover, .define-small-circle-div1:hover, .ideate-small-circle-div1:hover, .prototype-small-circle-div1:hover, .test-small-circle-div1:hover, .conclusion-small-circle-div1:hover {
+    color: #BDC98D;
+}
+
+.research-small-circle-div2, .empathize-small-circle-div2, .define-small-circle-div2, .ideate-small-circle-div2, .prototype-small-circle-div2, .test-small-circle-div2, .conclusion-small-circle-div2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div2:hover, .define-small-circle-div2:hover, .ideate-small-circle-div2:hover, .prototype-small-circle-div2:hover, .test-small-circle-div2:hover, .conclusion-small-circle-div2:hover {
+    color: #BDC98D;
+}
+
+.research-small-circle-div3, .empathize-small-circle-div3, .define-small-circle-div3, .ideate-small-circle-div3, .prototype-small-circle-div3, .test-small-circle-div3, .conclusion-small-circle-div3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div3:hover, .empathize-small-circle-div3:hover, .ideate-small-circle-div3:hover, .prototype-small-circle-div3:hover, .test-small-circle-div3:hover, .conclusion-small-circle-div3:hover {
+    color: #BDC98D;
+}
+
+
+.research-small-circle-div4, .empathize-small-circle-div4, .define-small-circle-div4, .ideate-small-circle-div4, .prototype-small-circle-div4, .test-small-circle-div4, .conclusion-small-circle-div4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div4:hover, .empathize-small-circle-div4:hover, .define-small-circle-div4:hover, .prototype-small-circle-div4:hover, .test-small-circle-div4:hover, .conclusion-small-circle-div4:hover {
+    color: #BDC98D;
+}
+
+
+.research-small-circle-div5, .empathize-small-circle-div5, .define-small-circle-div5, .ideate-small-circle-div5, .prototype-small-circle-div5, .test-small-circle-div5, .conclusion-small-circle-div5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div5:hover, .empathize-small-circle-div5:hover, .ideate-small-circle-div5:hover, .define-small-circle-div5:hover, .test-small-circle-div5:hover, .conclusion-small-circle-div5:hover {
+    color: #BDC98D;
+}
+
+.research-small-circle-div6, .empathize-small-circle-div6, .define-small-circle-div6, .ideate-small-circle-div6, .prototype-small-circle-div6, .test-small-circle-div6, .conclusion-small-circle-div6 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div6:hover, .empathize-small-circle-div6:hover, .ideate-small-circle-div6:hover, .define-small-circle-div6:hover, .prototype-small-circle-div6:hover, .conclusion-small-circle-div6:hover {
+    color: #BDC98D;
+}
+
+.research-small-circle-div7, .empathize-small-circle-div7, .define-small-circle-div7, .ideate-small-circle-div7, .prototype-small-circle-div7, .test-small-circle-div7, .conclusion-small-circle-div7 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research-small-circle-div7:hover, .empathize-small-circle-div7:hover, .ideate-small-circle-div7:hover, .define-small-circle-div7:hover, .prototype-small-circle-div7:hover, .test-small-circle-div7:hover {
+    color: #BDC98D;
+}
+
+
 
 .line-small-1, .line-small-2, .line-small-3, .line-small-4, .line-small-5, .line-small-6 {
     width: 60px;
