@@ -294,10 +294,20 @@ nav ul li a:hover {
     font-family: 'Comfortaa', cursive;
     justify-content: center;
     align-items: center;
-    margin: 100px;
     gap: 5px;
-    transform: translateY(-50px);
-    margin-right: 150px;
+    z-index: 10;
+    height: 100px;
+    position: sticky;
+}
+
+.design-process-research-container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: sticky;
 }
 
 .blue-circle-1 {
@@ -306,7 +316,7 @@ nav ul li a:hover {
     background-color: #72B0FF;
     border-radius: 50%;
     margin-top: -25px;
-    transform: translateX(49px);
+    transform: translateX(43px);
     z-index: -1;
 }
 
@@ -420,7 +430,7 @@ nav ul li a:hover {
     text-align: left;
     margin: 200px;
     width: 1027px;
-    margin-top: -100px;
+    margin-top: -5px;
 }
 
 .user-interviews-title {
