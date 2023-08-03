@@ -1,0 +1,53 @@
+html {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #72B0FF;
+    padding: 50px 0;
+    font-family: "Allison", cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.blue-container .row {
+    align-items: center;
+    justify-content: center;
+}
+  
+.blue-container .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.no-wrap {
+    white-space: nowrap;
+}
+  
+.blue-container .row .col + .col {
+    margin-left: -45px;
+}
+  
+@media (max-width: 767px) {
+    body {
+      font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+}
