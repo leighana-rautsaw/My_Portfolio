@@ -62,6 +62,13 @@ body {
     margin-top: -175px;
 }
 
+@media (max-width: 1200px) {
+    .hero-container {
+        background-color: transparent;
+        margin-top: 0px;
+    }
+}
+
 .row {
     align-items: center;
     justify-content: center;
@@ -69,6 +76,7 @@ body {
 
 .hero-content {
     padding: 180px 100px 100px 103px;
+    z-index: 100;
 }
   
 .hero-content h1 {
@@ -88,6 +96,12 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+@media (max-width: 1200px) {
+    .hero-image {
+        height: 400px;
+    }
 }
   
 @media (max-width: 767px) {
@@ -161,13 +175,79 @@ p, li {
 .overview-details {
     align-items: flex-start;
     margin-left: 20px;
-    gap: 15px;
 }
 
 .my-roles {
-    margin-left: -30px;
+    margin-left: -15px;
+}
+
+.project-type ul li {
+    width: 200px;
 }
 
 .platform {
     margin-left: 50px;
+}
+
+.timeline {
+    margin-left: 25px;
+}
+
+.stack-container {
+    margin-right: -35px;
+    margin-top: -55px;
+}
+
+.divider {
+    margin-right: -5px;
+    margin-left: -10px;
+}
+
+.bottom-image {
+    position: absolute;
+    margin: 0;
+}
+
+.top-image {
+    position: absolute;
+    margin: 0;
+}
+
+.image-stack .top-image:hover {
+    opacity: 0;
+}
+
+.label {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -27px;
+    margin-right: -27px;
+    margin-top: 20px;
+}
+
+.research-blue-container {
+    background-color: #72B0FF;
+    padding: 50px 0;
+    font-family: "Allison", cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.design-process-research {
+    height: 100px;
+    background-color: white;
+    top: 0;
+    position: sticky;
+}
+
+.stack-container-small {
+    margin-right: -60px;
+    margin-left: -60px;
+    margin-top: -55px;
 }
