@@ -7,7 +7,6 @@ html {
 
 body {
     font-family: 'Comfortaa', cursive;
-    font-family: 'Allison', cursive;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -15,34 +14,56 @@ body {
     align-items: center;
 }
 
-.stack-container {
-    margin-right: -40px;
-}
 
-.divider {
-    margin-right: -20px;
-    margin-left: -20px;
-}
-
-.bottom-image {
-    position: absolute;
-    margin: 0;
-}
-
-.top-image {
-    position: absolute;
-    margin: 0;
-}
-
-.image-stack .top-image:hover {
-    opacity: 0;
-}
-
-.label {
-    text-align: center;
-    font-size: 1rem;
+footer {
+    background-image: linear-gradient(to top, #72B0FF 50%, transparent);
+    bottom: 0;
     font-family: 'Comfortaa', cursive;
-    margin-left: -40px;
-    margin-right: -40px;
-    margin-top: 20px;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center content */
+    height: 500px;
+}
+
+.footer-row-1 {
+    height: 100px;
+    margin-top: 200px;
+}
+
+.img-fluid {
+    margin-top: -50px;
+}
+
+.row1-column3 {
+    margin-top: 40px;
+}
+
+.my-work-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.in-touch {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.synchrovae-link, .bsa-link, .pharmacy-link, .student-link, .number-link, .email-link {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.synchrovae-link:hover, .bsa-link:hover, .pharmacy-link:hover, .student-link:hover, .number-link:hover, .email-link:hover {
+    font-size: 1.02rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+
+
+
+
