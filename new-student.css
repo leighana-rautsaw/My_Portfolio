@@ -624,7 +624,7 @@ h6 {
 }
 
 .circle {
-    width: 35px;
+    width: 40px;
     height: 35px;
     border: 2px solid black;
     border-radius: 50%;
@@ -744,7 +744,7 @@ h6 {
     align-items: flex-start; 
     justify-content: center;
     text-align: left; 
-    padding: 0 15px; /* Add padding to the columns */
+    padding: 0 15px;
 }
 
 .wireframes-prototype-columns h4,
@@ -755,7 +755,7 @@ h6 {
 
 .wireframes-prototype-columns img {
     display: block;
-    max-width: 100%; /* Make the images responsive */
+    max-width: 100%;
     height: auto;
 }
 
