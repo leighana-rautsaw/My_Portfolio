@@ -175,15 +175,10 @@ p, li {
     width: 500px;
 }
 
-.problem {
-    margin-right: -70px;
-    margin-left: 50px;
-}
-
 .overview-details {
     align-items: flex-start;
     margin-left: 90px;
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .my-roles {
@@ -201,7 +196,6 @@ p, li {
 .timeline {
     margin-left: 25px;
 }
-
 
 .stack-container {
     margin-right: -35px;
@@ -544,17 +538,12 @@ h5 {
     height: 360px;
     display: block;
     justify-content: center;
-    padding: 55px 0;
+    padding: 55px 80px;
     margin-top: 70px;
 }
 
 .problem-statement p, .my-goal p {
     width: 500px;
-}
-
-.problem-statement {
-    margin-right: -70px;
-    margin-left: 50px;
 }
 
 .ideate-orange-container {
@@ -696,7 +685,7 @@ h5 {
 
 .image-container-sitemap {
     text-align: center;
-    margin-right: -100px;
+    margin-right: -20px;
 }
 
 .image-container-sitemap img {
@@ -708,6 +697,7 @@ h5 {
 
 .sitemap-paragraphs-container {
     max-width: 515px;
+    margin-left: 70px;
 }
 
 .sitemap-paragraphs-container ul li {
