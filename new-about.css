@@ -1,0 +1,78 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    background: url('Portfolio_Images/about-me-page-background.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #FAF1DF 30%, transparent);
+    z-index: 9999;
+    top: 0;
+    height: 175px;
+    font-family: 'Comfortaa', cursive;
+    padding: 0 50px;
+    position: relative;
+}
+  
+.logo {
+    max-height: 80px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+}
+  
+.nav-links li:last-child {
+    margin-right: 0;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.5s ease;
+    padding-left: 72px;
+}
+  
+.nav-links li a:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.hero-container {
+    background-color: #f5f5f5;
+    margin-top: -175px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 1200px) {
+    .hero-container {
+        background-color: transparent;
+        margin-top: 0px;
+    }
+}
