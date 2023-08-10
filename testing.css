@@ -14,56 +14,54 @@ body {
     align-items: center;
 }
 
-
-footer {
-    background-image: linear-gradient(to top, #72B0FF 50%, transparent);
-    bottom: 0;
-    font-family: 'Comfortaa', cursive;
+.black-border {
+    border: 1px solid black;
 }
 
-.footer-container {
+
+.header {
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Horizontally center content */
-    height: 500px;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #FAF1DF 30%, transparent);
+    border: 1px solid black;
+    z-index: 9999;
+    top: 0;
+    max-height: 10.94rem;
+    font-family: 'Comfortaa', cursive;
+    padding: 50px 50px;
+    position: relative;
 }
 
-.footer-row-1 {
-    height: 100px;
-    margin-top: 200px;
+img.image {
+    width: 120px;
 }
 
-.img-fluid {
-    margin-top: -50px;
+.nav-links {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
 }
 
-.row1-column3 {
-    margin-top: 40px;
+.nav-links li {
+    padding: 0 8px
 }
 
-.my-work-header {
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding-bottom: 10px;
+.menu {
+    max-width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
 }
 
-.in-touch {
-    font-size: 1.125rem;
-    font-weight: bold;
+@media screen and (max-width: 600px) {
+  .header {
+    flex-wrap: wrap;
+}
 }
 
-.synchrovae-link, .bsa-link, .pharmacy-link, .student-link, .number-link, .email-link {
-    font-size: 1rem;
-    text-decoration: underline;
+.logo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
 }
-
-.synchrovae-link:hover, .bsa-link:hover, .pharmacy-link:hover, .student-link:hover, .number-link:hover, .email-link:hover {
-    font-size: 1.02rem;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-
-
-
-
-
