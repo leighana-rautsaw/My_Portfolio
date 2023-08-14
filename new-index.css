@@ -39,7 +39,6 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-top: 30px;
@@ -56,6 +55,7 @@ body {
     color: #000000;
     transition: all 0.5s ease;
     padding-left: 72px;
+    white-space: nowrap;
 }
   
 .nav-links li a:hover {
