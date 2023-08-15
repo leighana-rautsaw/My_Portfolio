@@ -1,0 +1,105 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #FAF1DF 30%, transparent);
+    z-index: 9999;
+    top: 0;
+    min-height: 175px;
+    font-family: 'Comfortaa', cursive;
+    padding: 0 50px;
+    position: relative;
+}
+
+.logo {
+    max-height: 78px;
+    max-width: 228px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.5s ease;
+    padding: 0 50px;
+    white-space: nowrap;
+}
+  
+.nav-links li a:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+@media (max-width: 765px) {
+    .header {
+        flex-direction: column;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 765px) {
+    .nav-links {
+        margin-top: -30px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav-links li a {
+        padding: 20px 20px;
+    }
+}
+
+.background-image {
+    background: url('Portfolio_Images/01_home-hero-background.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+
+.row {
+    align-items: center;
+    justify-content: start;
+}
+
+.hero-content {
+    padding: 0 80px;
+}
+  
+.hero-content h1 {
+    font-size: 8rem;
+}
+
+.hero-content h2 {
+    font-size: 1.375rem;
+    font-family: 'Comfortaa', cursive;
+}
+  
+.hero-content p {
+    font-size: 1.125rem;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 30px;
+}
