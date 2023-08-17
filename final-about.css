@@ -1,0 +1,276 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS Styling for Responsive Header Below */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, #FAF1DF 30%, transparent);
+    z-index: 9998;
+    top: 0;
+    min-height: 175px;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 50px;
+}
+
+.nav-options a:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 1070px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin: -180px 0 0 0;
+    }
+    .header {
+        min-height: 350px;
+    }
+    .logo {
+        padding: 0;
+    }
+}
+
+@media (max-width: 730px) {
+    header {
+        margin: -220px 0 0 0;
+    }
+    .header {
+        min-height: 500px;
+    }
+    .nav-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+/* CSS Styling for Responsive Header Above */
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 0 30px;
+    background: url('Portfolio_Images/02-new-about-hero-bg.png') no-repeat center center;
+    background-size: cover;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section h1 {
+    margin-top: 350px;
+    font-size: 4.5rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.hero-section h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.375rem;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.375rem;
+}
+
+.hero-section h3 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3.5rem
+}
+
+.hero-section p {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+}
+
+.hero-content-line2 {
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.opening-portrait {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+@media (min-width: 730px) {
+    .hero-section h1 {
+        margin-top: 300px;
+        font-size: 4.5rem;
+    }
+    .hero-content-line2 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .hero-section {
+        padding: 0 50px;
+    }
+    .opening-portrait {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1070px) {
+    .hero-section h1 {
+        font-size: 6rem;
+        margin-top: 200px;
+    }
+    .hero-section h2 {
+        font-size: 1.375rem;
+    }
+    .hero-section h3 {
+        font-size: 4.5rem;
+    }
+    .hero-section p {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        padding-left: 450px;
+    }
+    .hero-section {
+        padding: 0 100px 0 60px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .hero-content {
+        text-align: right;
+    }
+    .opening-portrait {
+        max-width: 250%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .hero-content-line2 {
+        justify-content: end;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+.skill-set-section {
+    padding: 0;
+}
+
+.skill-set-title-container {
+    text-align: center;
+    background: url('Portfolio_Images/02_skill_set_title_bg.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.skill-set-section h1 {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.skill-set-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.skill-set-title-row img {
+    margin: -30px 0 0 -50px;
+}
+
+@media (min-width: 1070px) {
+    .skill-set-section h1 {
+        font-size: 6rem;
+        margin: 20px;
+    }
+}
+
+.skill-img-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+}
+  
+.skill-img-row {
+    /* You can remove this if it's not needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.skill-set-img {
+    max-width: 100%; /* To ensure the image doesn't exceed its container */
+    height: auto; /* To maintain the aspect ratio */
+}
