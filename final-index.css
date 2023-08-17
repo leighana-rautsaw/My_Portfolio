@@ -187,12 +187,11 @@ header {
 }
 
 .my-work-section {
-    position: relative;
     font-size: 6rem;
     text-align: center;
     background: url('Portfolio_Images/01_my_work_title_bg.png') no-repeat center center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,42 +238,30 @@ p {
     }
 }
 
-/*
-
-.synchrovae-section {
-    text-align: right;
-    padding-right: 70px;
+.synchrovae-container {
+    overflow-x: hidden;
 }
 
-.synchrovae {
-    display: flex;
+.synchrovae-container h4 {
+    font-size: 3.8rem;
 }
 
-.synchrovae-phone-img {
-    max-width: 100%;
-    height: auto;
+.synchrovae-container h5 {
+    font-size: 1.125rem;
 }
 
-.synchrovae-content {
-    margin-top: -200px;
-}
-
-.synchrovae-h5, .synchrovae-p, .synchrovae-button {
-    margin-left: 50px;
-    max-width: 465px;
-}
-
-.synchrovae-title {
-    margin-left: -90px;
+.synchrovae-container p {
+    font-size: .9rem;
 }
 
 .synchrovae-title-icon {
     gap: 20px;
-    margin-right: 10px;
+    justify-content: center;
 }
 
-.synchrovae-title h4 {
-    margin-top: 25px;
+.synchrovae-icon {
+    max-width: 20%;
+    height: auto;
 }
 
 .stacked-images {
@@ -283,51 +270,57 @@ p {
 
 .synchrovae-button img {
     position: absolute;
-    top: 0;
-    right: 0;
+    max-width: 35%;
 }
 
 .stacked-images .button-top:hover {
     opacity: 0;
 }
 
-@media (max-width: 1070px) {
-    .synchrovae-content {
-        margin-top: 10px;
+@media (min-width: 730px) {
+    .synchrovae-container {
+        padding: 0 50px 0 0;
     }
-    .synchrovae h4 {
-        font-size: 3.5rem;
+    .synchrovae-container h5 {
+        text-align: right;
     }
-    .synchrovae h5 {
-        font-size: 1.15rem;
-    }
-    .synchrovae p {
+    .synchrovae-container p {
+        text-align: right;
         font-size: .8rem;
     }
+    .synchrovae-button img {
+        top: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 1070px) {
+    .synchrovae-container {
+        padding: 0 100px 0 0;
+    }
+    .synchrovae-container h5 {
+        font-size: 1.375rem;
+    }
+    .synchrovae-container h4 {
+        font-size: 4.875rem;
+    }
+    .synchrovae-container p {
+        font-size: 1.125rem;
+    }
+    .synchrovae-icon {
+        max-width: 100%;
+    }
     .synchrovae-title {
-       margin: -40px -40px 0 -40px;
+        margin-left: -100px;
     }
-    .synchrovae-title img {
-        max-width: 20%;
-        height: auto;
+    .synchrovae-text {
+        margin-top: -150px;
     }
-    .stacked-images .button-top,
-    .stacked-images .button-bottom {
-        max-width: 30%;
+    .synchrovae-title-icon {
+        justify-content: end;
+    }
+    .synchrovae-button img {
+        max-width: 25%;
     }
 }
 
-@media (max-width: 770px) {
-    .synchrovae-section {
-        padding: 0;
-        text-align: center;
-    }
-    .synchrovae-content {
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-    }
-
-}
-
-*/
