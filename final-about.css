@@ -114,7 +114,7 @@ header {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 .hero-section h2 {
@@ -234,8 +234,14 @@ p {
 }
 
 .skill-set-section h1 {
+    font-size: 3rem;
     text-align: center;
     white-space: nowrap;
+}
+
+.feather-1 {
+    max-width: 30%;
+    height: auto;
 }
 
 .skill-set-title-row {
@@ -247,7 +253,23 @@ p {
 }
 
 .skill-set-title-row img {
-    margin: -30px 0 0 -50px;
+    margin: -30px 0 0 -30px;
+}
+
+.skill-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 730px) {
+    .skill-set-section h1 {
+        font-size: 4.5rem;
+    }
+    .feather-1 {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media (min-width: 1070px) {
@@ -255,22 +277,434 @@ p {
         font-size: 6rem;
         margin: 20px;
     }
+    .feather-1 {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-.skill-img-container {
-    display: flex;
-    justify-content: center; /* Horizontally centers the content */
-    align-items: center; /* Vertically centers the content */
-}
+
+
+
   
-.skill-img-row {
-    /* You can remove this if it's not needed */
+.specialties-assets-title-container {
+    margin-top: 20px;
+}
+
+.feather-2 {
+    max-width: 35%;
+    height: auto;
+}
+
+.specialties-assets-title-row h1 {
+    line-height: .95;
+}
+
+@media (min-width: 730px) {
+    .specialties-assets-title-container {
+        padding: 0 40px;
+    }
+    .specialties-assets-title-row {
+        padding: 0 30px;
+    }
+    .specialties-assets-title-container h1 {
+        font-size: 4.5rem;
+        margin: 10px 0 0 -60px;
+    }
+    .feather-2 {
+        max-width: 25%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1070px) {
+    .specialties-assets-title-container h1 {
+        font-size: 6rem;
+        margin: 30px 0 0 -100px;
+    }
+    .specialties-assets-title-container {
+        padding: 0 50px;
+    }
+    .specialties-assets-title-row {
+        padding: 0 100px;
+    }
+    .feather-2 {
+        max-width: 25%;
+        height: auto;
+    }
+}
+
+
+
+
+
+.specialties-assets-img-container {
+    width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin-top: -70px;
 }
-  
-.skill-set-img {
-    max-width: 100%; /* To ensure the image doesn't exceed its container */
-    height: auto; /* To maintain the aspect ratio */
+
+.specialties-assets-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.specialties-assets-png {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 730px) {
+    .specialties-assets-img-container {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .specialties-assets-img-container {
+        margin-top: -200px;
+    }
+}
+
+
+
+
+
+.design-process-title-container {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.design-process-title-container h1 {
+    margin: 13px;
+}
+
+@media (min-width: 730px) {
+    .design-process-title-container h1 {
+        font-size: 4.5rem;
+        margin: 40px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .design-process-title-container h1 {
+        font-size: 6rem;
+        margin: 80px;
+    }
+}
+
+
+
+
+.double-diamond-img-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    margin-top: -50px;
+}
+
+.double-diamond-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.double-diamond-png {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 730px) {
+    .double-diamond-img-container {
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .double-diamond-img-container {
+        margin-top: -170px;
+    }
+}
+
+
+
+.design-process-text {
+    text-align: center;
+    margin-top: -50px;
+    padding: 0 30px;
+}
+
+@media (min-width: 730px) {
+    .design-process-text {
+        margin-top: -150px;
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .design-process-text {
+        margin-top: -300px;
+        padding: 0 150px;
+    }
+}
+
+
+
+.my-goal-title-container {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.feather-3 {
+    max-width: 30%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.my-goal-title-row h1 {
+    line-height: .95;
+    text-align: center;
+}
+
+.my-goal-bg-img-container {
+    padding: 40px 0;
+}
+
+.my-goal-title-row {
+    padding: 0 20px;
+}
+
+.my-goal-title-row h1, .my-goal-title-row img {
+    margin-top: -20px;
+}
+
+@media (min-width: 730px) {
+    .my-goal-title-container {
+        padding: 0;
+    }
+    .my-goal-title-row {
+        padding: 0;
+        margin: 80px;
+    }
+    .my-goal-title-container h1 {
+        font-size: 4.5rem;
+    }
+    .feather-3 {
+        max-width: 20%;
+        height: auto;
+    }
+    .my-goal-title-row h1, .my-goal-title-row img {
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .my-goal-title-container h1 {
+        font-size: 6rem;
+    }
+    .my-goal-title-container {
+        padding: 0 50px;
+    }
+    .my-goal-title-row {
+        padding: 120px;
+    }
+    .my-goal-title-row img {
+        margin-top: -80px;
+    }
+    .feather-3 {
+        max-width: 25%;
+        height: auto;
+        margin-right: -250px;
+    }
+}
+
+
+
+.my-goal-img-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    margin-top: -100px;
+}
+
+.my-goal-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.my-goal-png {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 730px) {
+    .my-goal-img-container {
+        margin-top: -220px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .my-goal-img-container {
+        margin-top: -650px;
+    }
+}
+
+
+
+
+.journey-title-container {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.journey-title-container h1 {
+    margin: 13px;
+    white-space: nowrap;
+}
+
+.journey-title-container .ux {
+    margin-right: -30px;
+}
+
+@media (min-width: 730px) {
+    .journey-title-container {
+        margin-top: 50px;
+    }
+    .journey-title-container h1 {
+        font-size: 4.5rem;
+        margin: 30px;
+    }
+    .journey-title-container .ux {
+        margin-right: -50px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .journey-title-container {
+        margin-top: 80px;
+    }
+    .journey-title-container h1 {
+        font-size: 6rem;
+        margin: 70px;
+    }
+    .journey-title-container .ux {
+        margin-right: -100px;
+    }
+}
+
+
+
+
+.timeline-img-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    margin-top: -130px;
+}
+
+.timeline-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-png {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 730px) {
+    .timeline-img-container {
+        margin-top: -250px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .timeline-img-container {
+        margin-top: -500px;
+    }
+}
+
+
+
+
+footer {
+    background-image: linear-gradient(to top, #FAF1DF 50%, transparent);
+    bottom: 0;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -200px;
+    padding: 300px 50px 50px 50px;
+    text-align: center;
+}
+
+footer h5 {
+    font-size: 1.1rem;
+}
+
+.footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+    font-size: .9rem;
+    padding: 5px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.footer-nav-options-3 {
+    margin-top: -15px;
+}
+
+footer p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footer-row1-col2, .footer-row2 {
+    margin-top: 50px;
+}
+
+.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover, .footer-nav-options-3 a:hover {
+    font-size: 1.02rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+@media (min-width: 1070px) {
+    .footer-container {
+        margin-top: -200px;
+    }
+    .footer-row1, .footer-row2-col1, .footer-nav-container-3, .footer-nav-options-3 {
+        display: flex;
+    }
+    .footer-nav-options-3 {
+        margin-top: 0;
+    }
+    .footer-row1 {
+        justify-content: space-evenly;
+        text-align: left;
+    }
+    .footer-row2-col1 {
+        justify-content: space-evenly;
+    }
+    .footer-row2-col1 p{
+        padding: 0 100px;
+    }
+    .footer-nav-options-3 a {
+        padding: 0 70px;
+    }
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        font-size: 1rem;
+    }
+    .footer-row1-col2 h5, .footer-nav-container-3 p {
+        font-size: 1.2rem;
+    }
 }
