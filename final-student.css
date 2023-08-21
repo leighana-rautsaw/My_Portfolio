@@ -1,0 +1,495 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS Styling for Responsive Header Below */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, #49BDA7 30%, transparent);
+    z-index: 9998;
+    top: 0;
+    min-height: 175px;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 50px;
+}
+
+.nav-options a:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 1070px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin: -180px 0 0 0;
+    }
+    .header {
+        min-height: 350px;
+    }
+    .logo {
+        padding: 0;
+    }
+}
+
+@media (max-width: 730px) {
+    header {
+        margin: -220px 0 0 0;
+    }
+    .header {
+        min-height: 500px;
+    }
+    .nav-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+/* CSS Styling for Responsive Header Above */
+
+
+
+h1 {
+    font-size: 4.2rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.hero-container {
+    margin-top: 150px;
+    padding: 0;
+}
+
+.hero-text-container {
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+/* STYLING FOR IMAGE SIZING */
+
+.hero-image, .affinity-diagram-img img, .chart-1-img img, .chart-2-img img, .chart-3-img img, .competitor-analysis-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* STYLING FOR IMAGE SIZING */
+
+.information-section, .research-section, .empathize-section, .define-section,
+.ideate-section, .prototype-section, .test-section, .conclusion-section {
+    padding: 0;
+}
+
+.project-title-container {
+    background-color: #49BDA7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.title-container {
+    background-color: #49BDA7;
+    min-height: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.title-container h2 {
+    margin-left: 100px;
+}
+
+.ui-design-challenge {
+    margin-left: -20px;
+}
+
+.project-information-container {
+    padding: 30px;
+}
+
+.problem-solution-container, .project-details-container {
+    margin-top: 50px;
+}
+
+.problem {
+    padding-bottom: 30px;
+}
+
+.project-details-container ul {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    padding: 0 0 30px 0;
+    margin: 0;
+    line-height: 1.5;
+    list-style-type: none;
+    text-align: center;
+}
+
+.project-details-container ul li {
+    margin-bottom: 5px;
+}
+
+.design-process-steps-container {
+    margin-top: 20px;
+}
+
+.stack-container p {
+    margin-top: 20px;
+}
+
+.stack-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-stack {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.image-stack, .divider {
+    text-align: center;
+}
+
+.bottom-image,
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.image-stack .top-image:hover {
+    opacity: 0;
+}
+
+.research-section .title-container h2 {
+    margin: 0;
+}
+
+.design-process-small {
+    text-align: left;
+    padding: 10px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+}
+
+.design-process-row {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.stack-container-small, .small-divider {
+    padding: 0;
+}
+
+.small-divider {
+    display: none;
+}
+
+.overlap-container {
+    position: relative;
+    top: 0;
+    position: sticky;
+}
+
+.design-process-row div:first-child {
+    margin-top: 10px;
+}
+
+.design-process-row div:last-child {
+    margin-bottom: 20px;
+}
+
+.content-container {
+    text-align: center;
+    padding: 30px 0 0 120px;
+}
+
+.content-container p {
+    padding-bottom: 20px;
+}
+
+.content-container :last-child {
+    margin-bottom: 0;
+}
+
+.no-gray {
+    padding: 0 30px 50px 0;
+}
+
+.notes-container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gray {
+    background-color: #F8F8F8;
+    padding: 30px 30px 30px 0;
+    margin-bottom: 50px;
+}
+
+.further-analysis-container p {
+    margin: 0;
+}
+
+.chart-text {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 730px) {
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.375rem;
+    }
+    .hero-container {
+        margin-top: -220px;
+    }
+    .project-title-container {
+        padding: 0 50px;
+    }
+    .project-information-container {
+        padding: 50px;
+    }
+    .design-process-row {
+        justify-content: center;
+        flex-direction: row;
+        height: auto;
+    }
+    .design-process-small {
+        height: auto;
+        overflow-x: hidden;
+        background-color: white;
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .small-divider {
+        display: inline-block;
+    }
+    .small-divider img {
+        width: 45px;
+    }
+    .design-process-row div:first-child {
+        margin-top: 0;
+    }
+    .design-process-row div:last-child {
+        margin-bottom: 0;
+    }
+    .content-container {
+        padding: 100px 0 0 0;
+    }
+    .no-gray {
+        padding: 0 50px 50px 50px;
+    }
+    .notes-container {
+        flex-direction: row;
+        align-items: center;
+
+        gap: 0;
+    }
+    .notes-container img {
+        width: 35%;
+        height: auto;
+    }
+    .gray {
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    .chart-text {
+        padding-bottom: 0;
+        max-width: 50%;
+    }
+    .chart-1-row, .chart-2-row, .chart-3-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chart-1-row, .chart-3-row {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 1070px) {
+    h1, h3, p {
+        text-align: left;
+    }
+    .hero-container {
+        margin-top: 0;
+    }
+    .hero-text-container {
+        
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .project-information-container {
+        padding: 50px 150px 50px 150px;
+        margin: 0;
+    }
+    .hero-row-container {
+        display: flex;
+        align-items: center;
+    }
+    .hero-image {
+        content: url('Portfolio_Images/new-student-bg.png');
+        height: 100vh;
+        width: auto;
+    }
+    .project-title-container {
+        padding: 0 150px;
+    }
+    .project-title-container {
+        margin: 0;
+    }
+    .problem-solution-container {
+        display: flex;
+        gap: 50px;
+    }
+    .problem {
+        padding-bottom: 0;
+    }
+    .project-details-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-details-container ul {
+        list-style-type: disc;
+        text-align: left;
+    }
+    .project-details-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .design-process-steps-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .design-process-small {
+        padding: 10px 220px;
+    }
+    .small-divider img {
+        width: 70px;
+    }
+    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .bottom-image,
+    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .top-image {
+        width: 80px;
+        height: 80px;
+    }
+    .content-container {
+        padding: 120px 0 0 0;
+    }
+    .no-gray {
+        padding: 0 150px 70px 150px;
+    }
+    .notes-container img {
+        width: 100%;
+        height: auto;
+    }
+    .gray {
+        padding: 70px 150px;
+        margin-bottom: 70px;
+    }
+    .chart-1-row, .chart-2-row, .chart-3-row {
+        justify-content: space-between;
+    }
+    .chart-1-row .chart-text h3, .chart-3-row .chart-text h3 {
+        text-align: right;
+    }
+    .chart-1-row .chart-text p, .chart-3-row .chart-text p {
+        text-align: right;
+    }
+}
