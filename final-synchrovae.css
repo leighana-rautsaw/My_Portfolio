@@ -99,21 +99,37 @@ header {
 
 
 
-
-
-.hero-container {
-    margin-top: 100px;
-    padding: 0;
-}
-
 h1 {
     font-size: 4.2rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
 }
 
 h3 {
     font-family: 'Comfortaa', cursive;
     font-size: 1.2rem;
     font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.hero-container {
+    margin-top: 100px;
+    padding: 0;
 }
 
 .hero-text-container {
@@ -131,15 +147,6 @@ h3 {
 }
 
 @media (min-width: 730px) {
-    h1 {
-        font-size: 8rem;
-    }
-    h2 {
-        font-size: 4rem;
-    }
-    h3 {
-        font-size: 1.375rem;
-    }
     .hero-container {
         margin-top: -150px;
     }
@@ -171,98 +178,85 @@ h3 {
     }
 }
 
+/* STYLING FOR IMAGE SIZING */
 
-
-
-h2 {
-    font-size: 3rem;
-    text-align: center;
+.hero-image, .affinity-diagram-img img, .chart-1-img img, .chart-2-img img, .chart-3-img img, .competitor-analysis-image-container img,
+.personas-images img, .empathy-map-image-container img, .how-wish-img img, .slide-section-mobile img, .journey-map img,
+.user-flow-img img, .sketches-image-container img, .wireframe-section img, .clickable-prototype-section img,
+.test-results-image-container img, .phone-layers img, .closing-image img {
+    width: 100%;
+    height: auto;
 }
 
-.project-info-container {
-    margin-top: 50px;
+/* STYLING FOR IMAGE SIZING */
+
+.information-section, .research-section, .empathize-section, .define-section,
+.ideate-section, .prototype-section, .test-section, .conclusion-section {
     padding: 0;
 }
 
-.project-title-row {
+.project-title-container {
     background-color: #72B0FF;
-    line-height: 1.5;
-    min-height: 200px;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.title-container {
+    background-color: #72B0FF;
+    min-height: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.title-container h2 {
+    margin-left: 100px;
 }
 
 .ui-design-challenge {
     margin-left: -20px;
 }
 
-@media (min-width: 1070px) {
-    .project-info-container {
-        margin-top: 0;
-    }
-    h2 {
-        font-size: 4rem;
-    }
-}
-
-
-
-
-
-p {
-    font-size: 1rem;
-    font-family: 'Comfortaa', cursive;
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
 .project-information-container {
-    text-align: center;
     padding: 30px;
-    margin-top: 20px;
 }
 
-.problem-solution-container {
+.problem-solution-container, .project-details-container {
     margin-top: 50px;
 }
 
-.problem, .solution {
-    margin-bottom: 30px;
-}
-
-.project-details-container {
-    margin-top: 50px;
+.problem {
+    padding-bottom: 30px;
 }
 
 .project-details-container ul {
-    font-size: 1rem;
     font-family: 'Comfortaa', cursive;
-    margin-bottom: 30px;
+    font-size: 1rem;
+    padding: 0 0 30px 0;
+    margin: 0;
     line-height: 1.5;
     list-style-type: none;
-    padding: 0;
+    text-align: center;
 }
 
-.project-details-container ul li{
+.project-details-container ul li {
     margin-bottom: 5px;
 }
 
-
-.design-process-main-container {
-    margin-top: 50px;
+.design-process-steps-container {
+    margin-top: 20px;
 }
 
-.design-process-steps-container {
-    align-items: center;
-    justify-content: center;
+.stack-container p {
     margin-top: 20px;
 }
 
 .stack-container {
-    text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -276,7 +270,7 @@ p {
 }
 
 .image-stack, .divider {
-    justify-content: center;
+    text-align: center;
 }
 
 .bottom-image,
@@ -293,80 +287,11 @@ p {
     opacity: 0;
 }
 
-.stack-container p {
-    margin-top: 20px;
-}
-
-@media (min-width: 730px) {
-    .project-information-container {
-        padding: 50px;
-        margin: 0;
-    }
-}
-
-@media (min-width: 1070px) {
-    .project-information-container {
-        padding: 50px 150px;
-        margin: 0;
-        text-align: left;
-    }
-    .problem-solution-container {
-        display: flex;
-        gap: 50px;
-    }
-    .problem, .solution {
-        margin-bottom: 0;
-    }
-    .project-details-row {
-        display: flex;
-        justify-content: space-between;
-    }
-    .design-process-steps-container {
-        display: flex;
-        align-items: flex-start;
-    }
-    .divider {
-        text-align: center;
-    }
-    .design-process-main-container {
-        margin-top: 30px;
-    }
-    .project-details-container ul {
-        list-style-type: disc;
-    }
-}
-
-
-.research-section, .empathize-section, .define-section, .ideate-section, .prototype-section, .test-section, .conclusion-section {
-    padding: 0;
-}
-
-.title-container {
-    background-color: #72B0FF;
-    min-height: 100px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-}
-
-.title-container h2 {
-    margin-left: 100px;
-}
-
 .research-section .title-container h2 {
     margin: 0;
 }
 
-.content-container {
-    text-align: center;
-    padding: 30px 0 0 120px;
-}
-
-.content-container p {
-    padding-bottom: 20px;
-}
-
-.design-process-research, .design-process-empathize, .design-process-define, .design-process-ideate, .design-process-prototype, .design-process-test, .design-process-conclusion {
+.design-process-small {
     text-align: left;
     padding: 10px 30px;
     position: absolute;
@@ -375,6 +300,7 @@ p {
     z-index: 1;
     height: 100vh;
     background-color: white;
+    justify-content: center;
 }
 
 .design-process-row {
@@ -385,7 +311,7 @@ p {
     align-items: flex-start;
 }
 
-.stack-container-small, .small-divider {
+.stack-container-small, .small-divider, .wireframe-prototype-content .wireframe-section p, .wireframe-prototype-content .clickable-prototype-section p {
     padding: 0;
 }
 
@@ -407,76 +333,98 @@ p {
     margin-bottom: 20px;
 }
 
-.user-interviews-text-container {
-    margin-top: 10px;
-    padding-right: 30px;
+.content-container {
+    text-align: center;
+    padding: 30px 0 0 120px;
 }
 
-.speech-bubbles-container {
+.content-container p {
+    padding-bottom: 20px;
+}
+
+.content-container :last-child {
+    margin-bottom: 0;
+}
+
+.no-gray {
+    padding: 0 30px 50px 0;
+}
+
+.quotes-container {
     flex-direction: column;
-    gap: 30px;
-    padding-right: 30px;
+    gap: 20px;
 }
 
-.speech-bubble-3 {
-    margin-top: -10px;
-}
-
-.affinity-diagram {
-    padding: 50px 30px 0 0;
-}
-
-.closing-section {
-    padding: 20px 30px 0 0;
-}
-
-.user-flow, .guerrilla-testing {
-    padding-right: 30px;
-}
-
-.affinity-diagram-img img, .pie-chart-1-img img, .pie-chart-2-img img, .pie-chart-3-img img, .competitor-analysis-image-container img,
-.user-flow img, .sketches-container img, .test-results-container img, .conclusion-content img, .closing-section img {
-    width: 100%;
-    height: auto;
-}
-
-.further-analysis-container, .competitor-analysis-container, .empathy-map-container, .problem-statement-container, .sketches-container,
-.test-results-container, .key-takeaways-container {
+.gray {
     background-color: #F8F8F8;
-    margin-top: 30px;
     padding: 30px 30px 30px 0;
+    margin-bottom: 50px;
 }
 
-.competitor-analysis-container, .empathy-map-container, .sketches-container, .test-results-container {
-    flex-direction: column;
-}
-
-.further-analysis-container p, .problem-statement-container p, .key-takeaways-container p {
-    padding: 0;
+.further-analysis-container p, .problem-statement-container p {
     margin: 0;
+    padding: 0;
 }
 
-.pie-chart-1-container, .pie-chart-3-container {
-    padding: 50px 30px 0 0;
+.chart-text {
+    padding-bottom: 20px;
 }
 
-.pie-chart-2-container {
-    background-color: #F8F8F8;
-    margin-top: 50px;
-    padding: 30px 30px 30px 0;
+.user-persona, .clickable-prototype-section, .phone-layers {
+    margin-top: 30px;
 }
 
+.user-insight-how-might-we ul li p, .conclusion-content ul li p {
+    text-align: left;
+    padding-bottom: 10px;
+}
 
+.slide-section-mobile div, .iterations-left {
+    padding-bottom: 30px;
+}
+
+.slide-section-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-section-desktop, .ideate-content {
+    display: none;
+}
+
+.how-wish-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.like-wish-what-if {
+    padding-bottom: 30px;
+}
 
 @media (min-width: 730px) {
-    .content-container {
-        padding: 50px 0 0 0;
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.375rem;
+    }
+    .project-title-container {
+        padding: 0 50px;
+    }
+    .project-information-container {
+        padding: 50px;
     }
     .design-process-row {
+        justify-content: center;
         flex-direction: row;
         height: auto;
     }
-    .design-process-research, .design-process-empathize, .design-process-define, .design-process-ideate, .design-process-prototype, .design-process-test, .design-process-conclusion {
+    .design-process-small {
         height: auto;
         overflow-x: hidden;
         background-color: white;
@@ -495,224 +443,60 @@ p {
     .design-process-row div:last-child {
         margin-bottom: 0;
     }
-    .user-interviews-text-container {
-        margin-top: 50px;
-        padding: 0 50px;
+    .content-container {
+        padding: 100px 0 0 0;
     }
-    .speech-bubble-3 {
-        margin-top: 0;
+    .no-gray {
+        padding: 0 50px 50px 50px;
     }
-    .speech-bubbles-container {
-        margin-top: 20px;
+    .full-width-row {
+        padding-bottom: 50px;
+    }
+    .quotes-container {
         flex-direction: row;
+        align-items: center;
         gap: 0;
-        padding: 0 50px;
-        align-items: flex-end;
-        justify-content: center
     }
-    .speech-bubbles-container img {
-        width: 30%;
+    .quotes-container img {
+        width: 35%;
         height: auto;
     }
-    .affinity-diagram, .user-flow {
-        padding: 50px 50px 0 50px;
-    } 
-    .further-analysis-container, .competitor-analysis-container, .problem-statement-container, .sketches-container,
-    .test-results-container, .key-takeaways-container {
+    .gray {
         padding: 50px;
-        margin-top: 20px;
+        margin-bottom: 50px;
     }
-    .pie-chart-1-container, .pie-chart-3-container {
-        padding: 50px;
+    .chart-text {
+        padding-bottom: 0;
+        max-width: 50%;
     }
-    .pie-chart-1-row, .pie-chart-2-row, .pie-chart-3-row {
+    .chart-1-row, .chart-2-row, .chart-3-row {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .pie-chart-2-row {
+    .chart-2-row {
         flex-direction: row-reverse;
-    }
-    .pie-chart-1-text, .pie-chart-2-text, .pie-chart-3-text {
-        max-width: 50%;
-    }
-    .pie-chart-2-container {
-        padding: 50px;
     }
     .title-container h2 {
         margin: 0;
     }
-    .sketches-container {
-        margin-top: 50px;
+    .user-persona, .clickable-prototype-section, .phone-layers {
+        margin-top: 0;
     }
-    .closing-section {
-        padding: 30px 50px 0 50px;
-    }
-}
-
-@media (min-width: 1070px) {
-    .content-container {
-        padding-top: 50px;
-        text-align: left;
-    }
-    .design-process-research, .design-process-empathize, .design-process-define, .design-process-ideate, .design-process-prototype, .design-process-test, .design-process-conclusion {
-        padding: 10px 220px;
-    }
-    .small-divider img {
-        width: 70px;
-    }
-    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .bottom-image,
-    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .top-image {
-        width: 80px;
-        height: 80px;
-    }
-    .user-interviews-text-container {
-        margin-top: 70px;
-        padding: 0 150px;
-    }
-    .closing-section {
-        margin-top: 50px;
-        padding: 0 150px;
-    }
-    .speech-bubbles-container {
-        padding: 0 150px;
-    }
-    .affinity-diagram {
-        padding: 100px 150px 0 150px;
-    }
-    .user-flow {
-        padding: 80px 150px 0 150px;
-    }
-    .affinity-diagram-img, .user-flow img {
-        padding-top: 20px;
-    }
-    .further-analysis-container, .competitor-analysis-container, .problem-statement-container, .sketches-container,
-    .test-results-container, .key-takeaways-container {
-        padding: 70px 150px;
-    }
-    .pie-chart-1-container, .pie-chart-3-container {
-        padding: 50px 150px;
-    }
-    .pie-chart-1-row, .pie-chart-2-row, .pie-chart-3-row {
-        justify-content: space-between;
-    }
-    .pie-chart-2-container {
-        padding: 70px 150px;
-        text-align: right;
-    }
-    .sketches-container {
-        margin-top: 70px;
-    }
-    .test-results-image-container {
-        margin-top: 20px;
-    }
-}
-
-
-
-
-.personas, .slide-section-mobile, .wireframes-prototype, .iterations {
-    margin-top: 10px;
-    padding-right: 30px;
-    justify-content: center;
-}
-
-.iterations {
-    padding-top: 30px;
-}
-
-.personas-images img, .wireframes-prototype img, .iterations img {
-    width: 100%;
-    height: auto;
-}
-
-.iterations img {
-    padding-bottom: 30px;
-}
-
-.empathy-map-container {
-    text-align: center;
-}
-
-.empathy-map-container p {
-    padding-bottom: 20px;
-}
-
-.empathy-map-image-container img, .wish-matrix img, .slide-section-mobile img {
-    width: 100%;
-    height: auto;
-}
-
-.slide-section-mobile div {
-    margin-bottom: 30px;
-}
-
-.user-insight-how-might-we, .wish-matrix, .conclusion-content {
-    padding-right: 30px;
-}
-
-.wish-matrix {
-    margin-top: 30px;
-}
-
-.wish-matrix h3 {
-    padding-bottom: 10px;
-}
-
-.user-insight-how-might-we p {
-    padding-bottom: 10px;
-}
-
-.user-insight-how-might-we ul li p, .conclusion-content ul li p {
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-.next-steps {
-    padding-bottom: 10px;
-}
-
-.like-wish-what-if, .prioritization-matrix {
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.slide-section-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.slide-section-desktop, .ideate-content {
-    display: none;
-}
-
-.wireframe-prototype-content div {
-    margin-top: 30px;
-}
-
-.wireframe-prototype-content {
-    margin-bottom: 30px;
-}
-
-@media (min-width: 730px) {
-    .personas, .user-insight-how-might-we, .wish-matrix, .slide-section-desktop, .guerrilla-testing, .iterations, .conclusion-content {
-        margin-top: 50px;
-        padding: 0 50px;
-    }
-    .scenarios {
+    .personas-images {
         display: flex;
         justify-content: space-between;
+        margin-top: 10px;
+    }
+    .user-insight-how-might-we, .wireframe-prototype-content, .scenarios, .iterations-images {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
     }
     .scenarios div {
         max-width: 30%;
         height: auto;
-    }
-    .wireframes-prototype {
-        padding: 0 50px;
+        margin-top: 20px;
     }
     .wireframe-section {
         padding-right: 10px;
@@ -720,41 +504,20 @@ p {
     .clickable-prototype-section {
         padding-left: 10px;
     }
-    .personas-images, .wireframe-prototype-content, .iterations-images {
-        display: flex;
-        margin-top: 20px;
-        justify-content: space-between;
-    }
-    .empathy-map-container {
-        padding: 50px;
-        margin-top: 50px;
-    }
-    .user-insight-how-might-we {
-        display: flex;
-        text-align: left;
-        justify-content: space-between;
-        margin-bottom: 50px;
-    }
-    .user-insight-statement, .how-might-we {
+    .user-insight-statement, .how-might-we, .iterations-left, .iterations-right {
         max-width: 48%;
     }
-    .user-insight-how-might-we ul li p {
-        padding-bottom: 0;
-        margin: 0;
+    .user-insight-statement p, .how-might-we p{
+        text-align: left;
     }
-    .design-process-row {
-        justify-content: center;
+    .how-might-we ul li p {
+        padding-bottom: 5px;
     }
-    .wish-matrix {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 30px;
+    .how-text {
+        margin-right: -20px;
     }
-    .like-wish-what-if {
-        padding-right: 20px;
-    }
-    .prioritization-matrix {
-        padding-left: 20px;
+    .wish-text {
+        margin-left: -20px;
     }
     .slide-section-mobile {
         display: none;
@@ -796,44 +559,116 @@ p {
         justify-content: center;
         height: 100%;
     }
-    .journey-map img {
-        width: 100%;
-        height: auto;
-    }
-    .ideate-content {
-        margin: 30px 0 50px 0;
-    }
-    .ideate-content, .arrow, .journey-map {
+    .how-might-we p, .ideate-content, .arrow, .journey-map, .iterations-left {
         padding: 0;
     }
-    .iterations-left {
-        padding-right: 10px;
-    }
-    .iterations-right {
-        padding-left: 10px;
+    .test-results-image-container {
+        margin-top: 20px;
     }
     .conclusion-content img {
         width: 70%;
         height: auto;
+        margin-top: 50px;
+    }
+    .closing-title {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .how-wish-text {
+        display: flex;
+        flex-direction: row;
+    }
+    .like-wish-what-if {
+        padding-bottom: 0;
     }
 }
 
 @media (min-width: 1070px) {
-    .personas, .user-insight-how-might-we, .wish-matrix, .slide-section-desktop, .guerrilla-testing, .iterations, 
-    .conclusion-content {
-        margin-top: 70px;
+    h1, h3, p {
+        text-align: left;
+    }
+    .project-information-container {
+        padding: 50px 150px 50px 150px;
+        margin: 0;
+    }
+    .project-title-container {
         padding: 0 150px;
     }
-    .empathy-map-container {
-        padding: 70px 150px;
+    .project-title-container {
+        margin: 0;
+    }
+    .problem-solution-container {
+        display: flex;
+        gap: 50px;
+    }
+    .problem {
+        padding-bottom: 0;
+    }
+    .project-details-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-details-container ul {
+        list-style-type: disc;
         text-align: left;
+    }
+    .project-details-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .design-process-steps-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .design-process-small {
+        padding: 10px 220px;
+    }
+    .small-divider img {
+        width: 70px;
+    }
+    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .bottom-image,
+    .design-process-row .stack-container-small, .design-process-row .image-stack, .design-process-row .top-image {
+        width: 80px;
+        height: 80px;
+    }
+    .content-container {
+        padding: 120px 0 0 0;
+    }
+    .no-gray {
+        padding: 0 150px 70px 150px;
+    }
+    .full-width-row {
+        padding-bottom: 70px;
+    }
+    .notes-container img {
+        width: 100%;
+        height: auto;
+    }
+    .gray {
+        padding: 70px 150px;
+        margin-bottom: 70px;
+    }
+    .chart-1-row, .chart-2-row, .chart-3-row {
+        justify-content: space-between;
+    }
+    .chart-2-row .chart-text h3 {
+        text-align: right;
+    }
+    .chart-2-row .chart-text p {
+        text-align: right;
+    }
+    .proto-persona h3, .user-persona h3, .how-text h3, .wish-text h3 {
+        text-align: center;
     }
     .user-insight-statement, .how-might-we {
         max-width: 45%;
     }
-    .wish-matrix img {
-        height: auto;
-        align-items: center;
+    .iterations-left, .iterations-right {
+        max-width: 100%;
+    }
+    .wish-text {
+        margin-left: -70px;
     }
     .slide-section-desktop h3 {
         font-size: 1.375rem;
@@ -841,18 +676,10 @@ p {
     .slide-section-labels {
         white-space: nowrap;
     }
-    .wireframes-prototype {
-        margin-top: 30px;
-        padding: 0 150px;
-    }
-    .wireframes-prototype {
-        text-align: left;
-    }
-    .iterations-left {
-        padding-right: 0;
-    }
-    .iterations-right {
-        padding-left: 0;
+    .conclusion-content-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .conclusion-content img {
         width: 100%;
@@ -866,10 +693,10 @@ p {
         max-width: 55%;
         height: auto;
     }
+    .like-wish-what-if h3, .prioritization-matrix h3 {
+        text-align: center;
+    }
 }
-
-
-
 
 footer {
     background-image: linear-gradient(to top, #72B0FF 50%, transparent);
@@ -912,7 +739,6 @@ footer p {
 .footer-container {
     padding: 0;
 }
-
 
 @media (min-width: 730px) {
     footer {

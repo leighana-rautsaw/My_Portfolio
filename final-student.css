@@ -530,10 +530,6 @@ p {
     }
 }
 
-
-
-
-
 @media (min-width: 1070px) {
     h1, h3, p {
         text-align: left;
@@ -667,7 +663,6 @@ p {
     }
 }
 
-
 footer {
     background-image: linear-gradient(to top, #49BDA7 50%, transparent);
     bottom: 0;
@@ -709,7 +704,6 @@ footer p {
 .footer-container {
     padding: 0;
 }
-
 
 @media (min-width: 730px) {
     footer {
