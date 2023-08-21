@@ -147,7 +147,12 @@ p {
 .competitor-analysis-image-container img, .personas-images img, .empathy-map-image-container img,
 .how-wish-img img, .slide-section-mobile img, .journey-map img, .user-flow-img img, .sketches-image-container img,
 .wireframe-section img, .clickable-prototype-section img, .test-results-image-container img, .phone-layers img,
-.closing-image img, .heuristic-icons img {
+.closing-image img, .heuristic-icons img, .interface-analysis-image1, .interface-analysis-image2,
+.proto-persona1 img, .proto-persona2 img, .user-persona-container-image-container img, 
+.project-motivation-image-section img, .typography-section img, .hierarchy-section img,
+.mood-board-image-container img, .style-guide-image-container img, .card-sorting-img img, 
+.nav-org-img1 img, .nav-org-img2 img, .sketch1 img, .sketch2 img, .sketch3 img, .sketch4 img, 
+.digital-wireframes-row img, .assets-section img, .mockups-section img, .clickable-prototype-image-container img {
     width: 100%;
     height: auto;
 }
@@ -321,12 +326,12 @@ p {
     margin-bottom: 50px;
 }
 
-.website-analysis-container p, .problem-statement-container p {
+.website-analysis-container p, .problem-statement-container p, .my-goal p, .citation-links :last-child {
     margin: 0;
     padding: 0;
 }
 
-.chart-text {
+.chart-text, .card-sorting-text {
     padding-bottom: 20px;
 }
 
@@ -334,13 +339,66 @@ p {
     flex-direction: column;
 }
 
-.quote-2, .quote-3, .quote-4 {
+.quote-2, .quote-3, .quote-4, .hierarchy-section, .mockups-section {
     margin-top: 30px;
 }
 
 .quote-1-text p, .quote-2-text p, .quote-3-text p, .quote-4-text p {
     text-align: center;
 }
+
+.personas-images div, .my-goal, .nav-org-img2 {
+    margin-top: 30px;
+}
+
+.link {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px; 
+    color: #365D22;
+}
+
+.link:hover {
+    color: #BDC98D;
+}
+
+.project-motivation-image-section img, .slide-section-mobile div {
+    padding-bottom: 30px;
+}
+
+.citation-links p {
+    color: #BDC98D;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.citation-links p:hover {
+    color: #355C21;
+}
+
+.slide-section-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-section-desktop, .ideate-content {
+    display: none;
+}
+
+.slide-section-mobile .user-scenario-mobile {
+    padding: 0;
+}
+
+.sketches-images div {
+    margin-top: 30px;
+    border: 2px solid #BBBBBB;
+}
+
+
 
 @media (min-width: 730px) {
     h1 {
@@ -405,28 +463,43 @@ p {
         flex-direction: row;
         justify-content: space-between;
     }
-    
-    .quote-2, .quote-3, .quote-4 {
+    .quote-2, .quote-3, .quote-4, .personas-images div, .my-goal, .hierarchy-section, .nav-org-img2, .mockups-section {
         margin-top: 0;
     }
-    .chart-text {
+    .chart-text, .card-sorting-text {
         padding-bottom: 0;
         max-width: 50%;
     }
-    .annotations-row, .user-path-row, .heuristic-row {
+    .annotations-row, .user-path-row, .heuristic-row, .citation-links, .card-sorting-row,
+    .digital-wireframes-row {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 50px;
     }
-    .user-path-row {
+    .user-path-row, .digital-wireframes-row {
         flex-direction: row-reverse;
     }
-
-
-
-
-
+    .interface-analysis-image-container img {
+        width: 50%;
+        height: auto;
+    }
+    .proto-titles h3, .user-persona-title h3, .nav-org-img-section .nav-org-img1 h3,
+    .nav-org-img-section .nav-org-img2 h3 {
+        font-size: 1.25rem;
+    }
+    .project-motivation-image-section img {
+        width: 30%;
+        height: auto;
+    }
+    .problem-statement, .my-goal, .typography-section, .hierarchy-section, 
+    .assets-section, .mockups-section {
+        width: 48%;
+        height: auto;
+    }
+    .citation-links p, .problem-statement p, .my-goal p, .card-sorting-text p {
+        padding: 0;
+    }
     .slide-section-mobile {
         display: none;
     }
@@ -466,6 +539,15 @@ p {
         align-items: center;
         justify-content: center;
         height: 100%;
+    }
+    .typography-hierarchy-content, .assets-mockups-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .nav-org-img-section {
+        margin-top: 20px;
+        gap: 20px;
     }
 }
 
@@ -557,21 +639,38 @@ p {
         padding: 70px 150px;
         margin-bottom: 70px;
     }
-
-    .annotations-row, .user-path-row, .heuristic-row {
+    .annotations-row, .user-path-row, .heuristic-row, .card-sorting-row, .digital-wireframes-row {
         justify-content: space-between;
     }
-    .user-path-row .chart-text h3, .user-path-row .chart-text p {
+    .user-path-row .chart-text h3, .user-path-row .chart-text p, 
+    .digital-wireframes-row .chart-text h3, .digital-wireframes-row .chart-text p {
         text-align: right;
     }
-
-    
-
-
+    .proto-titles, .user-persona-title {
+        gap: 10px;
+    }
+    .proto-persona1 .proto-titles p, .proto-persona2 .proto-titles p, .user-persona-container-image-container .user-persona-title p {
+        padding: 0;
+        margin-bottom: 8px;
+        font-size: 1.25rem;
+    }
+    .personas-images, .user-persona-title {
+        padding-top: 50px;
+    }
+    .project-motivation-image-section img {
+        width: 28%;
+        height: auto;
+    }
     .slide-section-desktop h3 {
         font-size: 1.375rem;
     }
     .slide-section-labels {
         white-space: nowrap;
+    }
+    .nav-org-img-section .nav-org-img1 h3, .nav-org-img-section .nav-org-img2 h3 {
+        text-align: center;
+    }
+    .nav-org-img-section {
+        gap: 0;
     }
 }
