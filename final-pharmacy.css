@@ -13,6 +13,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Allison', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
 
 /* CSS Styling for Responsive Header Below */
 
@@ -21,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    background-image: linear-gradient(to bottom, #BDC98D 30%, transparent);
+    background-image: linear-gradient(to bottom, #FEC086 30%, transparent);
     z-index: 9998;
     top: 0;
     min-height: 175px;
@@ -141,20 +156,25 @@ p {
     white-space: normal;
 }
 
+.hero-row-container {
+    overflow: hidden;
+}
+
 /* STYLING FOR IMAGE SIZING */
 
 .hero-image, .affinity-diagram-img img, .annotations-img img, .user-path-img img, .heuristic-img img,
 .competitor-analysis-image-container img, .personas-images img, .empathy-map-image-container img,
 .how-wish-img img, .slide-section-mobile img, .journey-map img, .user-flow-img img, .sketches-image-container img,
 .wireframe-section img, .clickable-prototype-section img, .test-results-image-container img, .phone-layers img,
-.closing-image img, .interface-analysis-image1, .interface-analysis-image2,
+.closing-image img, .interface-analysis-image-container img, .sitemap-image-container img,
 .proto-persona1 img, .proto-persona2 img, .user-persona-container-image-container img, 
 .project-motivation-image-section img, .typography-section img, .hierarchy-section img,
 .mood-board-image-container img, .style-guide-image-container img, .card-sorting-img img, 
 .nav-org-img1 img, .nav-org-img2 img, .sketch1 img, .sketch2 img, .sketch3 img, .sketch4 img, 
+.new-sketch1 img, .new-sketch2 img, .new-sketch3 img, .new-sketch4 img,
 .digital-wireframes-row img, .assets-section img, .mockups-section img, .clickable-prototype-image-container img, 
 .ab-testing-container-image-container img, .testing-iterations-image-container img, 
-.laptop-layers img, .before img, .after img, .closing-image img {
+.laptop-layers img, .before img, .after img {
     width: 100%;
     height: auto;
 }
@@ -172,7 +192,7 @@ p {
 }
 
 .project-title-container {
-    background-color: #BDC98D;
+    background-color: #FEC086;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,7 +203,7 @@ p {
 }
 
 .title-container {
-    background-color: #BDC98D;
+    background-color: #FEC086;
     min-height: 100px;
     display: flex; 
     align-items: center; 
@@ -335,7 +355,7 @@ p {
 }
 
 .website-analysis-container p, .problem-statement-container p, .my-goal p, 
-.citation-links :last-child, .closing-section {
+.citation-links :last-child {
     margin: 0;
     padding: 0;
 }
@@ -366,11 +386,11 @@ p {
     text-align: center;
     line-height: 1.5;
     margin-bottom: 10px; 
-    color: #365D22;
+    color: #2396E0;
 }
 
 .link:hover {
-    color: #BDC98D;
+    color: #FEC086;
 }
 
 .project-motivation-image-section img, .slide-section-mobile div {
@@ -378,13 +398,13 @@ p {
 }
 
 .citation-links p {
-    color: #BDC98D;
+    color: #2396E0;
     text-decoration: underline;
     margin: 0;
 }
 
 .citation-links p:hover {
-    color: #355C21;
+    color: #FEC086;
 }
 
 .slide-section-mobile {
@@ -404,7 +424,8 @@ p {
 }
 
 .testing-iterations .testing-iterations-text .testing-text ul li p, 
-.conclusion-text .conclusion-text-left .next-steps-text ul li p {
+.conclusion-text .conclusion-text-left .next-steps-text ul li p,
+.sitemap .section-text .sitemap-text ul li p {
     text-align: left;
 }
 
@@ -413,6 +434,8 @@ p {
     padding-bottom: 30px;
     text-align: center;
 }
+
+
 
 @media (min-width: 730px) {
     h1 {
@@ -478,7 +501,7 @@ p {
         justify-content: space-between;
     }
     .quote-2, .quote-3, .quote-4, .personas-images div, .my-goal, .hierarchy-section, .nav-org-img2, .mockups-section, 
-    .iterations-text, .conclusion-text-right, .after {
+    .iterations-text, .conclusion-text-right, .after, .sitemap .section-text .sitemap-image-container {
         margin-top: 0;
     }
     .chart-text, .card-sorting-text {
@@ -492,24 +515,24 @@ p {
         align-items: center;
         gap: 50px;
     }
-    .user-path-row, .digital-wireframes-row {
+    .user-path-row, .digital-wireframes-row, .card-sorting-row {
         flex-direction: row-reverse;
-    }
-    .interface-analysis-image-container img {
-        width: 50%;
-        height: auto;
     }
     .proto-titles h3, .user-persona-title h3, .nav-org-img-section .nav-org-img1 h3,
     .nav-org-img-section .nav-org-img2 h3 {
         font-size: 1.25rem;
     }
     .project-motivation-image-section img {
+        width: 20%;
+        height: auto;
+    }
+    .testing-iterations-image-container img {
         width: 30%;
         height: auto;
     }
     .problem-statement, .my-goal, .typography-section, .hierarchy-section, 
     .assets-section, .mockups-section, .testing-text, .iterations-text, 
-    .conclusion-text-left, .conclusion-text-right, .before, .after {
+    .conclusion-text-left, .conclusion-text-right, .before, .after, .sitemap-text {
         width: 48%;
         height: auto;
     }
@@ -547,7 +570,7 @@ p {
         margin: 10px;
     }
     .journey-map-desktop .circle {
-        background-color: #BDC98D;
+        background-color: #FEC086;
     }
     .white-container {
         background-color: white;
@@ -565,7 +588,7 @@ p {
         margin-top: 20px;
         gap: 20px;
     }
-    .testing-iterations-text, .conclusion-text {
+    .testing-iterations-text, .conclusion-text, .section-text {
         gap: 30px;
     }
 }
@@ -585,11 +608,13 @@ p {
         text-align: right;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        margin-right: 100px;
+        align-items: flex-start;
+        margin: 50px 0 0 100px;
     }
     .hero-text-container h1 {
-        text-align: right;
+        text-align: left;
+        line-height: .9;
+        padding-bottom: 20px;
     }
     .project-information-container {
         padding: 50px 150px 50px 150px;
@@ -597,10 +622,11 @@ p {
     }
     .hero-row-container {
         display: flex;
+        flex-direction: row-reverse;
         align-items: center;
     }
     .hero-image {
-        content: url('Portfolio_Images/new-bsa-bg.png');
+        content: url('Portfolio_Images/new-pharmacy-bg.png');
         height: 100vh;
         width: auto;
         margin-right: -80px;
@@ -662,7 +688,9 @@ p {
         justify-content: space-between;
     }
     .user-path-row .chart-text h3, .user-path-row .chart-text p, 
-    .digital-wireframes-row .chart-text h3, .digital-wireframes-row .chart-text p {
+    .digital-wireframes-row .chart-text h3, .digital-wireframes-row .chart-text p,
+    .card-sorting-container .card-sorting-row .card-sorting-text h3,
+    .card-sorting-container .card-sorting-row .card-sorting-text p {
         text-align: right;
     }
     .proto-titles, .user-persona-title {
@@ -677,7 +705,7 @@ p {
         padding-top: 50px;
     }
     .project-motivation-image-section img {
-        width: 28%;
+        width: 20%;
         height: auto;
     }
     .slide-section-desktop h3 {
@@ -692,13 +720,19 @@ p {
     .nav-org-img-section {
         gap: 0;
     }
-    .testing-iterations .testing-iterations-text .testing-text p {
+    .testing-iterations-image-container img {
+        width: 50%;
+        height: auto;
+    }
+    .testing-iterations .testing-iterations-text .testing-text p, 
+    .sitemap .section-text .sitemap-text ul li p {
         padding-bottom: 12px;
     }
-    .testing-iterations .testing-iterations-text .testing-text ul li p {
+    .testing-iterations .testing-iterations-text .testing-text ul li p, 
+    .sitemap .section-text .sitemap-text ul li p {
         padding-bottom: 10px;
     }
-    .testing-iterations-image-container {
+    .testing-iterations-image-container, .sitemap-image-container {
         margin-top: 30px;
     }
     .next-steps-text {
@@ -714,7 +748,7 @@ p {
 
 
 footer {
-    background-image: linear-gradient(to top, #BDC98D 50%, transparent);
+    background-image: linear-gradient(to top, #FEC086 50%, transparent);
     bottom: 0;
     font-family: 'Comfortaa', cursive;
     margin: 0 0 0 120px;
@@ -757,7 +791,7 @@ footer p {
 
 @media (min-width: 730px) {
     footer {
-        background-image: linear-gradient(to top, #BDC98D 50%, transparent);
+        background-image: linear-gradient(to top, #FEC086 50%, transparent);
         bottom: 0;
         font-family: 'Comfortaa', cursive;
         margin: -100px 0 0 0;
