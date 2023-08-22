@@ -721,7 +721,7 @@ p {
         gap: 0;
     }
     .testing-iterations-image-container img {
-        width: 50%;
+        width: 30%;
         height: auto;
     }
     .testing-iterations .testing-iterations-text .testing-text p, 
@@ -831,5 +831,30 @@ footer p {
     }
     .footer-row1-col2 h5, .footer-nav-container-3 p {
         font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 1900px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1820px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .row-gray {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .row-gray {
+        padding: 0 70px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .row-gray {
+        padding: 0 150px;
     }
 }
