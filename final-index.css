@@ -97,10 +97,10 @@ header {
 
 /* CSS Styling for Responsive Header Above */
 
+
 .hero-content h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     margin-bottom: 15px;
-    white-space: nowrap;
 }
 
 .hero-content h2 {
@@ -115,9 +115,8 @@ header {
 }
 
 .hero-section {
-    position: relative;
     text-align: center;
-    padding: 0 70px;
+    padding: 0 30px;
     background: url('Portfolio_Images/01_new_home_bg.png') no-repeat center center;
     background-size: cover;
     overflow-x: hidden;
@@ -127,64 +126,96 @@ header {
 }
 
 .hero-content {
-    margin-top: 50px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.hero-building-image {
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.hero-building-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
     flex: 1;
 }
 
-.hero-image {
-    max-width: 48%;
-    height: auto;
-    margin: 220px 0 50px 0;
-}
-
-@media (max-width: 1070px) {
-    .hero-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .hero-content {
-      text-align: center;
-      flex: 1;
-      margin-top: 200px;
-      z-index: 9999;
-    }
-    .hero-content p {
-        font-size: 1.06rem;
-    }
-    .hero-image {
-      margin: -50px 0 0 -350px;
-    }
-}
-
-@media (max-width: 730px) {
-    .hero-content {
-        text-align: center;
-        flex: 1;
-        margin-top: 300px;
-        z-index: 9999;
-      }
+@media (min-width: 730px) {
     .hero-content h1 {
-        font-size: 4.2rem;
+        font-size: 8rem;
+    }
+    .hero-content {
+        margin-top: 300px;
+    }
+    .hero-building-image img {
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1050px) {
+    .hero-content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 200px;
+        padding: 0 50px;
+    }
+    .hero-content h1 {
+        text-align: left;
+        white-space: nowrap;
     }
     .hero-content h2 {
-        font-size: 1.125rem;
+        text-align: left;
     }
     .hero-content p {
-        font-size: 1.05rem;
+        text-align: left;
     }
-    .hero-image {
-        justify-content: center;
-        align-items: center;
+    .hero-building-image img {
+        max-width: 100%;
+        height: auto;
     }
-    .building-sketch {
-        max-width: 450px;
-        padding: 10px 20px;
-        justify-content: center;
+    .hero-content {
+        align-items: end;
+    }
+    .hero-text {
+        margin-bottom: 100px;
     }
 }
+
+@media (min-width: 1400px) {
+    .hero-building-image img {
+        max-width: 140%;
+        height: auto;
+        margin-left: -50px;
+    }
+    .hero-content {
+        align-items: start;
+    }
+}
+
+@media (min-width: 1900px) {
+    .hero-building-image img {
+        max-width: 100%;
+        height: auto;
+        margin-left: -50px;
+    }
+    .hero-content {
+        align-items: start;
+    }
+}
+
+
+
+
+
 
 .my-work-section {
     font-size: 6rem;
@@ -702,5 +733,16 @@ footer p {
     }
     .footer-row1-col2 h5, .footer-nav-container-3 p {
         font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1900px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1820px;
     }
 }
