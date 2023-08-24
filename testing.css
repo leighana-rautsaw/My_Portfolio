@@ -579,6 +579,29 @@ footer h5 {
     white-space: nowrap;
 }
 
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    p {
+        overflow-wrap: break-word;
+    }
+}
+
+
+
+
+
+
+
+
 .footer-nav-options-3 {
     margin-top: -15px;
 }
@@ -632,5 +655,16 @@ footer p {
 @media (min-width: 1400px) {
     .footer-container {
         margin-top: 0;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1900px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1820px;
     }
 }
