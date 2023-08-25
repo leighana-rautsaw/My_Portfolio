@@ -148,6 +148,12 @@ header {
     flex: 1;
 }
 
+@media (min-width: 540px) {
+    .hero-content h1 {
+        white-space: nowrap;
+    }
+}
+
 @media (min-width: 730px) {
     .hero-content h1 {
         font-size: 8rem;
@@ -161,7 +167,7 @@ header {
     }
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 1070px) {
     .hero-content {
         display: flex;
         flex-direction: row;
@@ -314,7 +320,7 @@ p {
     opacity: 0;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 766px) {
     .synchrovae-container {
         padding: 0 50px 0 0;
     }
@@ -340,7 +346,7 @@ p {
 
 @media (min-width: 1070px) {
     .synchrovae-container {
-        padding: 0 100px 0 0;
+        padding: 100px 100px 0 0;
     }
     .synchrovae-container h5 {
         font-size: 1.375rem;
@@ -366,6 +372,12 @@ p {
     }
     .synchrovae-button img {
         max-width: 25%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .synchrovae-container {
+        padding: 0 100px 0 0;
     }
 }
 
@@ -409,7 +421,7 @@ p {
     max-width: 35%;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 766px) {
     .bsa-row {
         display: flex;
         flex-direction: row-reverse;
@@ -440,7 +452,6 @@ p {
 
 @media (min-width: 1070px) {
     .bsa-container {
-        margin-top: -100px;
         padding: 0 0 0 100px;
     }
     .bsa-container h5 {
@@ -469,7 +480,45 @@ p {
     }
 }
 
+@media (min-width: 1400px) {
+    .bsa-container {
+        margin-top: -100px;
+    }
+}
 
+@media (min-width: 1800px) {
+    .bsa-laptop, .student-phone {
+        margin-right: -20px;
+    }
+}
+
+
+
+@media (min-width: 1800px) {
+    .student-title {
+        padding: 0 100px;
+        margin-left: -250px;
+    }
+    .student-icon {
+        margin-left: 150px;
+    }
+    .pharmacy-title, .synchrovae-title {
+        padding: 0 100px;
+        margin-right: -250px;
+    }
+    .pharmacy-icon, .synchrovae-icon {
+        margin-right: 150px;
+    }
+    .bsa-title {
+        margin-left: -250px;
+    }
+    .bsa-icon {
+        margin: -30px 0;
+    }
+    .bsa-container h5 {
+        margin-top: 30px;
+    }
+}
 
 
 .pharmacy-container {
@@ -509,7 +558,7 @@ p {
     max-width: 35%;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 766px) {
     .pharmacy-container {
         padding: 0 50px 0 30px;
         margin-top: 30px;
@@ -536,7 +585,7 @@ p {
 
 @media (min-width: 1070px) {
     .pharmacy-container {
-        margin-top: -80px;
+        margin-top: 100px;
         padding: 0 100px 0 60px;
     }
     .pharmacy-container h5 {
@@ -554,7 +603,7 @@ p {
         max-width: 100%;
     }
     .pharmacy-title {
-        margin-left: -120px;
+        margin-left: -350px;
     }
     .pharmacy-text {
         margin-top: -100px;
@@ -567,6 +616,14 @@ p {
     }
 }
 
+@media (min-width: 1400px) {
+    .pharmacy-container {
+        margin-top: -50px;
+    }
+    .pharmacy-title {
+        margin-left: -200px;
+    }
+}
 
 
 
@@ -607,7 +664,7 @@ p {
     max-width: 35%;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 766px) {
     .student-row {
         display: flex;
         flex-direction: row-reverse;
@@ -635,7 +692,6 @@ p {
 
 @media (min-width: 1070px) {
     .student-container {
-        margin-top: -100px;
         padding: 0 0 0 100px;
     }
     .student-container h5 {
@@ -664,6 +720,18 @@ p {
     }
     .student-text {
         padding: 0;
+    }
+    .student-title {
+        margin-right: -150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .student-container {
+        margin-top: -80px;
+    }
+    .student-title {
+        margin-right: 0;
     }
 }
 
@@ -702,7 +770,7 @@ footer p {
     margin-top: 50px;
 }
 
-.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover, .footer-nav-options-3 a:hover {
+.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
     font-size: 1.02rem;
     font-weight: bold;
     transition: all .5s ease;
@@ -733,6 +801,22 @@ footer p {
     }
     .footer-row1-col2 h5, .footer-nav-container-3 p {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    p {
+        overflow-wrap: break-word;
+    }
+}
+
+@media (min-width: 1400px) {
+    footer {
+        margin-top: -200px;
     }
 }
 

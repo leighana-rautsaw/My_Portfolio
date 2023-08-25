@@ -745,7 +745,7 @@ footer p {
     margin-top: 50px;
 }
 
-.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover, .footer-nav-options-3 a:hover {
+.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
     font-size: 1.02rem;
     font-weight: bold;
     transition: all .5s ease;
@@ -821,5 +821,18 @@ footer p {
 @media (min-width: 1500px) {
     .row-gray {
         padding: 0 150px;
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    p {
+        overflow-wrap: break-word;
     }
 }

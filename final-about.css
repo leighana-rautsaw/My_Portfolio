@@ -406,6 +406,12 @@ p {
     }
 }
 
+@media (min-width: 1400px) {
+    .feather-2 {
+        margin: 0 -20px 0 50px;
+    }
+}
+
 
 
 
@@ -785,7 +791,7 @@ footer p {
     margin-top: 50px;
 }
 
-.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover, .footer-nav-options-3 a:hover {
+.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
     font-size: 1.02rem;
     font-weight: bold;
     transition: all .5s ease;
