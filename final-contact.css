@@ -215,12 +215,7 @@ h2 {
     margin-top: 15px;
 }
 
-.phone-div p:hover, .email-div p:hover, .address-div p:hover {
-    font-size: 1.05rem;
-    font-weight: bold;
-    text-decoration: underline;
-    transition: all .5s ease;
-}
+
 
 .hear-from-you {
     margin-top: 50px;
@@ -469,9 +464,6 @@ h2 {
     p {
         font-size: 1.125rem;
     }
-    .phone-div p:hover, .email-div p:hover, .address-div p:hover {
-        font-size: 1.15rem;
-    }
     .bottom-half {
         margin: -150px 0;
     }
@@ -615,7 +607,7 @@ footer p {
     margin-top: 50px;
 }
 
-.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover, .footer-nav-options-3 a:hover {
+.footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
     font-size: 1.02rem;
     font-weight: bold;
     transition: all .5s ease;
