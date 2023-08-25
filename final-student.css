@@ -530,6 +530,10 @@ p {
     }
 }
 
+
+
+
+
 @media (min-width: 1070px) {
     h1, h3, p {
         text-align: left;
@@ -542,7 +546,17 @@ p {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-left: 50px;
+        margin: 0 50px 0 -80px;
+        margin-top: -100px;
+    }
+    .hero-text-container h1 {
+        text-align: right;
+        font-size: 6rem;
+        line-height: .9;
+    }
+    .hero-text-container h3 {
+        text-align: right;
+        font-size: 1.25rem;
     }
     .project-information-container {
         padding: 50px 150px 50px 150px;
@@ -554,7 +568,7 @@ p {
     }
     .hero-image {
         content: url('Portfolio_Images/new-student-bg.png');
-        height: 100vh;
+        height: 100%;
         width: auto;
     }
     .project-title-container {
@@ -662,6 +676,75 @@ p {
         height: auto;
     }
 }
+
+@media (min-width: 1200px) {
+    h1, h3, p {
+        text-align: left;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.375rem;
+    }
+    .hero-container {
+        margin-top: 0;
+    }
+    .hero-text-container {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 100px 0 -50px;
+    }
+    .hero-text-container h1 {
+        text-align: right;
+        font-size: 8rem;
+        line-height: 1;
+    }
+    .hero-row-container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .hero-row-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-text-container {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 100px 0 0;
+    }
+}
+
+@media (min-width: 1600px) {
+    .hero-row-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-text-container {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 150px 0 0;
+    }
+}
+
+
+
+
 
 footer {
     background-image: linear-gradient(to top, #49BDA7 50%, transparent);
@@ -815,31 +898,51 @@ footer p {
 
 
 
-@media (min-width: 2200px) {
-    h1 {
-        font-size: 20rem;
-    }
-    .hero-text-container {
-        margin-left: 100px;
-    }
-    .hero-text-container h3 {
-        font-size: 3rem;
-    }
-}
 
-@media (min-width: 4000px) {
-    h1 {
-        font-size: 30rem;
-    }
-    .hero-text-container {
-        margin-left: 300px;
-    }
-    .hero-text-container h3 {
-        font-size: 4rem;
-    }
+
+.hero-image-container-lg {
+    display: none;
 }
 
 
+@media (min-width: 1800px) {
+    .hero-container {
+        display: flex; 
+        justify-content: center;
+    }
+    .hero-row-container {
+        display: flex; 
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .hero-image-container-lg {
+        display: block;
+        transform: rotate(180deg);
+        left: 0;
+    }
+    .hero-text-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 50px 0 0 0;
+    }
+    .hero-text-container h1, .hero-text-container h3 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        white-space: normal;
+    }
+    .hero-text-container h1 {
+        font-size: 8rem;
+    }
+    .hero-text-container h3 {
+        font-size: 1.5rem;
+    }
+}
 
 
 

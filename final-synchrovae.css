@@ -827,9 +827,9 @@ footer p {
 
 
 
-@media (min-width: 1800px) {
+@media (min-width: 1850px) {
     h1 {
-        font-size: 15rem;
+        font-size: 12rem;
     }
     h2 {
         font-size: 6rem;
@@ -865,7 +865,7 @@ footer p {
 }
 
 
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
     .hero-container {
         display: flex; 
         justify-content: space-between;
@@ -887,10 +887,10 @@ footer p {
         text-align: center;
     }
     .hero-text-container h1 {
-        font-size: 12rem;
+        font-size: 8rem;
     }
     .hero-text-container h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

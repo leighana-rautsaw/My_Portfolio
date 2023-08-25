@@ -590,7 +590,7 @@ p {
     .hero-text-container h1 {
         text-align: right;
         font-size: 6rem;
-        line-height: .8;
+        line-height: .9;
     }
     .hero-text-container h3 {
         font-size: 1.25rem;
@@ -902,7 +902,6 @@ footer p {
     .slide-section-desktop h3 {
         font-size: 2rem;
     }
-
     .link {
         font-size: 2rem;
     }
@@ -942,15 +941,18 @@ footer p {
 }
 
 
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
     .hero-container {
         display: flex; 
-        justify-content: space-between;
+        justify-content: center;
     }
     .hero-row-container {
         display: flex; 
         width: 100%;
         justify-content: space-between;
+    }
+    .hero-image-container {
+        margin-left: -90px;
     }
     .hero-image-container-lg {
         display: block;
@@ -964,7 +966,7 @@ footer p {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin: 50px 50px 0 50px;
+        margin: 50px 0 0 -40px;
     }
     .hero-text-container h1, .hero-text-container h3 {
         text-align: center;
@@ -979,7 +981,35 @@ footer p {
     }
 }
 
+@media (min-width: 1900px) {
+    .hero-text-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 50px 0 0 -40px;
+    }
+    .hero-image-container {
+        margin-left: -30px;
+    }
+}
 
+@media (min-width: 2000px) {
+    .hero-text-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 50px 50px 0 50px;
+    }
+    .hero-image-container {
+        margin-left: 0;
+    }
+}
 
 
 
