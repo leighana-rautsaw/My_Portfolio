@@ -723,11 +723,11 @@ footer {
 }
 
 footer h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
-    font-size: .9rem;
+    font-size: .875rem;
     padding: 5px;
     text-decoration: underline;
 }
@@ -737,7 +737,7 @@ footer h5 {
 }
 
 footer p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -746,7 +746,7 @@ footer p {
 }
 
 .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
-    font-size: 1.02rem;
+    font-size: 1rem;
     font-weight: bold;
     transition: all .5s ease;
 }
@@ -792,12 +792,6 @@ footer p {
     .footer-nav-options-3 a {
         padding: 0 70px;
     }
-    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
-        font-size: 1rem;
-    }
-    .footer-row1-col2 h5, .footer-nav-container-3 p {
-        font-size: 1.2rem;
-    }
 }
 
 @media (min-width: 1900px) {
@@ -834,5 +828,111 @@ footer p {
     }
     p {
         overflow-wrap: break-word;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1850px) {
+    h1 {
+        font-size: 12rem;
+    }
+    .hero-text-container {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .hero-text-container h3 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .project-details-container ul {
+        font-size: 1.5rem;
+    }
+    .slide-section-desktop h3 {
+        font-size: 2rem;
+    }
+
+    .link {
+        font-size: 2rem;
+    }
+    .proto-titles h3, .user-persona-title h3, .nav-org-img-section .nav-org-img1 h3, 
+    .nav-org-img-section .nav-org-img2 h3 {
+        font-size: 1.875rem;
+    }
+    .proto-persona1 .proto-titles p,
+    .proto-persona2 .proto-titles p, 
+    .user-persona-container-image-container .user-persona-title p {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media (min-width: 2200px) {
+    h1 {
+        font-size: 15rem;
+    }
+    .hero-text-container {
+        margin-right: 300px;
+    }
+    .hero-text-container h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 4000px) {
+    h1 {
+        font-size: 20rem;
+    }
+    .hero-text-container h3 {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1800px) {
+    .header {
+        font-size: 1.375rem;
+    }
+    footer p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .nav-options a:hover {
+        font-size: 1.5rem;
+        text-decoration: underline;
+        transition: all 0.5s ease;
+    }
+    footer h5 {
+        font-size: 1.5rem;
+    }
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        font-size: 1.375rem;
+        padding: 5px;
+        text-decoration: underline;
+    }
+    .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s ease;
     }
 }

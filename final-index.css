@@ -747,11 +747,11 @@ footer {
 }
 
 footer h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
-    font-size: .9rem;
+    font-size: .875rem;
     padding: 5px;
     text-decoration: underline;
     white-space: nowrap;
@@ -762,7 +762,7 @@ footer h5 {
 }
 
 footer p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -771,7 +771,7 @@ footer p {
 }
 
 .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
-    font-size: 1.02rem;
+    font-size: 1rem;
     font-weight: bold;
     transition: all .5s ease;
 }
@@ -795,12 +795,6 @@ footer p {
     }
     .footer-nav-options-3 a {
         padding: 0 70px;
-    }
-    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
-        font-size: 1rem;
-    }
-    .footer-row1-col2 h5, .footer-nav-container-3 p {
-        font-size: 1.2rem;
     }
 }
 
@@ -828,5 +822,79 @@ footer p {
 @media (min-width: 1900px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1820px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 2000px) {
+    .hero-content h1 {
+        font-size: 12rem;
+    }
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 6rem;
+    }
+    h4 {
+        font-size: 12rem;
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .synchrovae-container h4, .bsa-container h4, .pharmacy-container h4, .student-container h4 {
+        font-size: 6rem;
+    }
+    .synchrovae-container h5, .bsa-container h5, .pharmacy-container h5, .student-container h5 {
+        font-size: 2rem;
+    }
+    .synchrovae-container p, .bsa-container p, .pharmacy-container p, .student-container p {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1800px) {
+    .header {
+        font-size: 1.375rem;
+    }
+    footer p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .nav-options a:hover {
+        font-size: 1.5rem;
+        text-decoration: underline;
+        transition: all 0.5s ease;
+    }
+    footer h5 {
+        font-size: 1.5rem;
+    }
+    .footer-nav-options-1 a, .footer-nav-options-2 a, .footer-nav-options-3 a {
+        font-size: 1.375rem;
+        padding: 5px;
+        text-decoration: underline;
+    }
+    .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s ease;
     }
 }
