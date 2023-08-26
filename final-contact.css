@@ -62,7 +62,7 @@ header {
 }
 
 .nav-options a:hover {
-    font-size: 1rem;
+    font-size: .925rem;
     text-decoration: underline;
     transition: all 0.5s ease;
 }
@@ -608,7 +608,7 @@ footer p {
 }
 
 .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
-    font-size: 1rem;
+    font-size: .925rem;
     font-weight: bold;
     transition: all .5s ease;
 }
@@ -654,7 +654,7 @@ footer p {
         font-weight: bold;
     }
     .nav-options a:hover {
-        font-size: 1.5rem;
+        font-size: 1.425rem;
         text-decoration: underline;
         transition: all 0.5s ease;
     }
@@ -667,7 +667,7 @@ footer p {
         text-decoration: underline;
     }
     .footer-nav-options-1 a:hover, .footer-nav-options-2 a:hover {
-        font-size: 1.5rem;
+        font-size: 1.425rem;
         font-weight: bold;
         transition: all .5s ease;
     }
@@ -689,5 +689,13 @@ footer p {
     }
     .top-half p {
         font-size: 1.5rem;
+    }
+}
+
+
+
+@media (min-width: 1900px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1820px;
     }
 }
