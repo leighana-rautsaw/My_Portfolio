@@ -947,3 +947,133 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+
+
+
+
+
+
+
+
+
+// Synchrovae Slide Function //
+
+document.addEventListener("DOMContentLoaded", function () {
+  const synchrovaeimages = [
+    "Portfolio_Images/1-synchrovae-journey-map.png",
+    "Portfolio_Images/1-synchrovae-value-proposition.png",
+    "Portfolio_Images/1-synchrovae-storyboard.png",
+    "Portfolio_Images/1-synchrovae-user-scenario.png"
+  ];
+  let synchrovaecurrentImageIndex = 0;
+  const synchrovaesliderImage = document.querySelector(".synchrovae-slider-image");
+  const synchrovaearrowLeft = document.querySelector(".synchrovae-left-arrow");
+  const synchrovaearrowRight = document.querySelector(".synchrovae-right-arrow");
+  const synchrovaecircles = document.querySelectorAll('.circle');
+
+  synchrovaecircles[0].classList.add('synchrovae-filled');
+
+  synchrovaearrowLeft.addEventListener("click", () => {
+    synchrovaecircles[synchrovaecurrentImageIndex].classList.remove('synchrovae-filled');
+    synchrovaecurrentImageIndex = (synchrovaecurrentImageIndex - 1 + synchrovaeimages.length) % synchrovaeimages.length;
+    synchrovaesliderImage.src = synchrovaeimages[synchrovaecurrentImageIndex];
+    synchrovaecircles[synchrovaecurrentImageIndex].classList.add('synchrovae-filled');
+  });
+
+  synchrovaearrowRight.addEventListener("click", () => {
+    synchrovaecircles[synchrovaecurrentImageIndex].classList.remove('synchrovae-filled');
+    synchrovaecurrentImageIndex = (synchrovaecurrentImageIndex + 1) % synchrovaeimages.length;
+    synchrovaesliderImage.src = synchrovaeimages[synchrovaecurrentImageIndex];
+    synchrovaecircles[synchrovaecurrentImageIndex].classList.add('synchrovae-filled');
+  });
+});
+
+
+
+
+
+
+
+
+
+
+// BSA Slide Function //
+
+document.addEventListener("DOMContentLoaded", function () {
+  const bsaimages = [
+    "Portfolio_Images/2-bsa-journey-map.png",
+    "Portfolio_Images/2-bsa-value-proposition.png",
+    "Portfolio_Images/2-bsa-storyboard.png",
+    "Portfolio_Images/2-bsa-user-scenario.png"
+  ];
+  let bsacurrentImageIndex = 0;
+  const bsasliderImage = document.querySelector(".bsa-slider-image");
+  const bsaarrowLeft = document.querySelector(".bsa-left-arrow");
+  const bsaarrowRight = document.querySelector(".bsa-right-arrow");
+  const bsacircles = document.querySelectorAll('.circle');
+
+  bsacircles[0].classList.add('bsa-filled');
+
+  bsaarrowLeft.addEventListener("click", () => {
+    bsacircles[bsacurrentImageIndex].classList.remove('bsa-filled');
+    bsacurrentImageIndex = (bsacurrentImageIndex - 1 + bsaimages.length) % bsaimages.length;
+    bsasliderImage.src = bsaimages[bsacurrentImageIndex];
+    bsacircles[bsacurrentImageIndex].classList.add('bsa-filled');
+  });
+
+  bsaarrowRight.addEventListener("click", () => {
+    bsacircles[bsacurrentImageIndex].classList.remove('bsa-filled');
+    bsacurrentImageIndex = (bsacurrentImageIndex + 1) % bsaimages.length;
+    bsasliderImage.src = bsaimages[bsacurrentImageIndex];
+    bsacircles[bsacurrentImageIndex].classList.add('bsa-filled');
+  });
+});
+
+
+
+
+
+
+
+
+
+
+// Student Counsel Slide Function //
+
+document.addEventListener("DOMContentLoaded", function () {
+  const studentimages = [
+    "Portfolio_Images/4-student-journey-map.png",
+    "Portfolio_Images/4-student-value-proposition.png",
+    "Portfolio_Images/4-student-storyboard.png",
+    "Portfolio_Images/4-student-user-scenario.png"
+  ];
+  let studentcurrentImageIndex = 0;
+  const studentsliderImage = document.querySelector(".student-slider-image");
+  const studentarrowLeft = document.querySelector(".student-left-arrow");
+  const studentarrowRight = document.querySelector(".student-right-arrow");
+  const studentcircles = document.querySelectorAll('.circle');
+
+  studentcircles[0].classList.add('student-filled');
+
+  studentarrowLeft.addEventListener("click", () => {
+    studentcircles[studentcurrentImageIndex].classList.remove('student-filled');
+    studentcurrentImageIndex = (studentcurrentImageIndex - 1 + studentimages.length) % studentimages.length;
+    studentsliderImage.src = studentimages[studentcurrentImageIndex];
+    studentcircles[studentcurrentImageIndex].classList.add('student-filled');
+  });
+
+  studentarrowRight.addEventListener("click", () => {
+    studentcircles[studentcurrentImageIndex].classList.remove('student-filled');
+    studentcurrentImageIndex = (studentcurrentImageIndex + 1) % studentimages.length;
+    studentsliderImage.src = studentimages[studentcurrentImageIndex];
+    studentcircles[studentcurrentImageIndex].classList.add('student-filled');
+  });
+});
+
+
+
+
+
+
+

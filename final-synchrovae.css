@@ -549,9 +549,7 @@ p {
         background-color: #AAAAAA;
         margin: 10px;
     }
-    .journey-map-desktop .circle {
-        background-color: #72B0FF;
-    }
+    
     .white-container {
         background-color: white;
         display: flex;
@@ -947,4 +945,15 @@ footer p {
 .scroll-button-prototype, .scroll-button-test, .scroll-button-conclusion {
     color: inherit; 
     text-decoration: none; 
-  }
+}
+
+
+
+
+.synchrovae-left-arrow, .synchrovae-right-arrow {
+    cursor: pointer;
+}
+
+.synchrovae-filled {
+    background-color: #72B0FF;
+}
