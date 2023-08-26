@@ -197,6 +197,10 @@ h2 {
     height: auto;
 }
 
+.submit-button {
+    cursor: pointer;
+}
+
 .stacked-images .button-top:hover {
     opacity: 0;
 }
@@ -698,4 +702,11 @@ footer p {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1820px;
     }
+}
+
+
+
+input:focus,
+textarea:focus {
+    outline: .5px solid black;
 }
