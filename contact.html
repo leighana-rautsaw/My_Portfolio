@@ -1,149 +1,150 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
-  <title>Contact Me</title>
+  <title>Contact Me - Leighana Rautsaw Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Allison&family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="contact.css">
 </head>
 
-
 <body>
-  <div class="background-image">
+
+
+    <!--Content Section-->
+    <div class="container-fluid content-background">
+
+        <div class="d-flex-col justify-content-center align-items-center container-fluid main-section" id="contact-content-container">
+            <div class="container-fluid top-half">
+                <div class="d-flex align-items-center heading-hand">
+                    <div class="heading">
+                        <h1>Get in touch.</h1>
+                    </div>
+                    <div class="hand-sketch-div">
+                        <img src="Portfolio_Images/hand-sketch.png" alt="Hand Sketch Image" class="img-fluid hand-sketch-img">
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Interested in my work or have questions? Don’t be shy, start the conversation today! I am always happy to answer questions & discuss new projects, creative ideas, or opportunities to be part of your visions.</p>
+                </div>
+            </div>
+            <div class="container-fluid d-flex-col justify-content-center bottom-half">
+    
+                <div class="d-flex-col justify-content-center align-items-center col-md-6 left-half">
+                    <h2>Message Me</h2>
+                    <form action="process_form.php" method="post">
+
+                        <div class="d-flex-col justify-content-start align-items-center background-div">
+                            <input type="text" name="name" placeholder="Name" class="d-flex align-items-center rectangle" required>
+                            <input type="tel" name="phone" placeholder="Phone" class="d-flex align-items-center rectangle" required>
+                            <input type="email" name="email" placeholder="Email" class="d-flex align-items-center rectangle" required>
+                            <textarea name="message" placeholder="Your Message" class="d-flex align-items-start rectangle larger" required></textarea>
+                        </div>
+        
+                        <div class="d-flex mt-2 stacked-images submit-button">
+                            <input type="image" src="Portfolio_Images/button-submit-tan.png" alt="Submit" class="button-bottom">
+                            <img src="Portfolio_Images/button-submit-white.png" alt="Image 2" class="button-top">
+                        </div>                        
+
+                    </form>
+                </div>
+    
+                <div class="col-md-6 right-half">
+                    <h2>Contact Information</h2>
+                    <div class="phone-div">
+                        <img src="Portfolio_Images/03_new_phone_icon.png" alt="Phone" class="phone-icon">
+                        <p>937-417-0337</p>
+                    </div>
+    
+                    <div class="email-div">
+                        <img src="Portfolio_Images/03_new_email_icon.png" alt="Email" class="email-icon">
+                        <p>rautsaw.leighana@gmail.com</p>
+                    </div>
+    
+                    <div class="address-div">
+                        <img src="Portfolio_Images/03_new_address_icon.png" alt="Address" class="address-icon">
+                        <p>11945 State Route 571, Laura, OH 45337</p>
+                    </div>
+                    
+                    <div class="hear-from-you">
+                        <h2>I can't want to hear from you!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="container-fluid footer-container">
+        
+            <div class="align-items-end footer-row1">
+                <a class="footer-row1-col1" href="index.html">
+                    <img src="Portfolio_Images/footer-logo.png" alt="Image" class="img-fluid footer-logo-img">
+                </a>
+                <div class="footer-row1-col2">
+                    <h5 class="my-work-header">My Work</h5>
+                    <div class="footer-nav-container-1">
+                        <nav class="footer-nav-options-1">
+                            <a class="nav-link" href="synchrovae.html">SynchroVae: Mobile Travel App</a>
+                            <a class="nav-link" href="bsa.html">Botanical Society of America</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-row1-col3">
+                    <div class="footer-nav-container-2">
+                        <nav class="footer-nav-options-2">
+                            <a class="nav-link" href="pharmacy.html">Virginia State Board of Pharmacy</a>
+                            <a class="nav-link" href="student.html">Student Counsel: Student App</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="align-items-center justify-content-center footer-row2">
+                <div class="text-center align-items-center footer-row2-col1">
+                    <div class="align-items-center footer-nav-container-3">
+                        <p>Get in touch with me today!</p>
+                        <nav class="footer-nav-options-3">
+                            <a>937-417-0337</a>
+                            <a>rautsaw.leighana@gmail.com</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+        </footer>
+    </div>
+
 
     <!--Header-->
-    <header>
-      <div class="inline-block logo">
-        <img src="Portfolio_Images/portfolio-logo.png" alt="logo">
-      </div>
-      <nav>
-          <ul>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Contact</a></li>
-          </ul>
-      </nav>
-    </header>
-
-
-    <!--Opening Section-->
-    <section class="main">
-
-        <div class="top-half">
-            <div class="opening-text">
-                <p class="heading">Get in touch.</p>
-                <p class="paragraph">Interested in my work or have questions? Don’t be shy, start the conversation today! I am always happy to answer questions & discuss new projects, creative ideas, or opportunities to be part of your visions.</p>
+    <div class="container-fluid header">
+        <header class="container-special">
+            <a class="logo-container" href="index.html">
+                <img src="Portfolio_Images/portfolio-logo.png" alt="Logo" class="logo">
+            </a>
+            <div class="nav-container">
+                <nav class="nav-options">
+                    <a class="nav-link" href="https://www.behance.net/leighanarautsaw">Behance</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/leighana-rautsaw-732123266/">LinkedIn</a>
+                    <a class="nav-link" href="Portfolio_Images/Leighana_Rautsaw_Resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-link" href="about.html">About Me</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </nav>
             </div>
-            <div class="hand-sketch">
-                <img src="Portfolio_Images/hand-sketch.png" alt="Hand Outline" class="hand-png">
-            </div>
-        </div>
+        </header>
+    </div>
+    
 
-        <div class="bottom-half">
-
-            <div class="left-half">
-                <div class="box-title">
-                    <p>Message Me</p>
-                </div>
-
-                <img src="Portfolio_Images/message-me-box-outline.png" alt="Box Outline" class="message-box">
-
-                <div class="rectangles">
-                    <div class="rectangle" id="rectangle1"></div>
-                    <div class="rectangle" id="rectangle2"></div>
-                    <div class="rectangle" id="rectangle3"></div>
-                    <div class="rectangle" id="rectangle4"></div>
-                </div>
-
-                <div class="rectangle-labels">
-                    <p>Name</p>
-                    <p>Phone</p>
-                    <p>Email</p>
-                    <p>Your Message</p>
-                </div>
-
-                <section class="submit-button">
-                    <div class="tan-box"></div>
-
-                    <div class="submit-button-png">
-                        <img src="Portfolio_Images/submit-button-outline.png" alt="Button Outline" class="submit-button-outline">
-                    </div>
-
-                    <div class="submit-button-text">
-                        <p>Submit</p>
-                    </div>
-
-                </section>
-
-            </div>
-
-            <div class="right-half">
-                <p class="contact-title">Contact Information</p>
-
-                <div class="contact-list-section">
-                    <div class="contact-icons">
-                        <img src="Portfolio_Images/phone-icon.png" alt="Phone" class="phone-icon">
-                        <img src="Portfolio_Images/email-icon.png" alt="Email" class="email-icon">
-                        <img src="Portfolio_Images/new-address-icon.png" alt="Address" class="address-icon">
-                    </div>
-
-                    <div class="contact-text">
-                        <p class="number">937-417-0337</p>
-                        <p class="email">rautsaw.leighana@gmail.com</p>
-                        <p class="address">11945 State Route 571, Laura, OH 45337</p>
-                        <p class="see-my-work">See my work</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Footer-->
-    <footer>
-        <section class="footer-top">
-          <div class="footer-logo">
-            <img src="Portfolio_Images/footer-logo.png" alt="Footer Logo" class="footer-large-logo">
-          </div>
-          <div class="bullet-list-section">
-            <div class="list-title">
-              My Work
-            </div>  
-            <div class="container">
-            
-              <div class="column">
-                <ul class="column">
-                  <li>SynchroVae: Mobile Travel App</li>
-                  <li>Botanical Society of America</li>
-                </ul>
-              </div>
-              <div class="column">
-                <ul>
-                  <li>Virginia State Board of Pharmacy</li>
-                  <li>Student Counsel: Student App</li>
-                </ul>
-              </div>
-            </div> 
-          </div>
-
-        </section>
-        <div class="footer-contact">
-          <div class="in-touch">
-            Get in touch with me today!
-          </div>
-          <ul class="column">
-            <li>937-417-0337</li>
-          </ul>
-          <ul class="column">
-            <li>rautsaw.leighana@gmail.com</li>
-          </ul>
-        </div>
-      </footer>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>
-
