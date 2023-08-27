@@ -9,7 +9,7 @@
 window.addEventListener('resize', function() {
     const screenWidth = window.innerWidth;
 
-    const minWidth = 1800;
+    const minWidth = 1900;
   
     const myDiv = document.getElementById('contact-content-container');
   
