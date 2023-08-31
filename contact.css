@@ -742,7 +742,9 @@ textarea:focus {
 }
 
 
-
+button {
+    border: none;
+}
 
 
 
